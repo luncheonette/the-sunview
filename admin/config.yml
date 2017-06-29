@@ -1,0 +1,135 @@
+backend:
+  name: github
+  repo: partnerandpartners/holly-how # Path to your Github repository
+  branch: master # Branch to update
+  publish_mode: editorial_workflow
+
+media_folder: "images/"
+
+collections:
+  - name: "resource" # Used in routes, e.g. /admin/collections/blog
+    label: "Resource" # Used in the UI
+    folder: "_posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "base"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "thumbnail", required: false, widget: "image"}
+      - {label: "Tags", name: "tags", widget: "categories"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "home" # Used in routes, e.g. /admin/collections/blog
+    label: "Home" # Used in the UI
+    files:
+      - name: "home" # Used in routes, e.g. /admin/collections/blog
+        label: "Home" # Used in the UI
+        file: "index.md"
+        fields: # The fields for each document, usually in front matter
+          - {label: "Layout", name: "layout", widget: "hidden", default: "home"}
+          - {label: "Body", name: "body", widget: "hidden"}
+          - {label: "Main Title", name: "title", widget: "string"}
+          - {label: "Main Introduction", name: "introduction", widget: "text"}
+          - {label: "Main Image", name: "main_image", widget: "image", required: false}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {label: "Section Title", name: "section_title", widget: "string"}
+              - {label: "Section Text", name: "section_text", widget: "text"}
+              - {label: "Section Image", name: "section_image", widget: "image", required: false}
+              - {label: "Section Selection", name: "section_select", widget: "select", options: ["Left", "Right"]}
+
+  - name: "page" # Used in routes, e.g. /admin/collections/blog
+    label: "Page" # Used in the UI
+    files:
+      - name: "Services"
+        label: "Services page"
+        file: "_pages/services.md"
+        fields: # The fields for each document, usually in front matter
+          - {label: "Layout", name: "layout", widget: "hidden", default: "base"}
+          - {label: "Body", name: "body", widget: "hidden"}
+          - {label: "Main Title", name: "title", widget: "string"}
+          - {label: "Main Introduction", name: "introduction", widget: "text"}
+          - {label: "Main Image", name: "main_image", widget: "image", required: false}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {label: "Section Title", name: "section_title", widget: "string"}
+              - {label: "Section Text", name: "section_text", widget: "text"}
+              - {label: "Section Image", name: "section_image", widget: "image", required: false}
+              - {label: "Section Selection", name: "section_select", widget: "select", options: ["Left", "Right"]}
+      - name: "Programs"
+        label: "Programs page"
+        file: "_pages/programs.md"
+        fields: # The fields for each document, usually in front matter
+          - {label: "Layout", name: "layout", widget: "hidden", default: "base"}
+          - {label: "Body", name: "body", widget: "hidden"}
+          - {label: "Main Title", name: "title", widget: "string"}
+          - {label: "Main Introduction", name: "introduction", widget: "text"}
+          - {label: "Main Image", name: "main_image", widget: "image", required: false}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {label: "Section Title", name: "section_title", widget: "string"}
+              - {label: "Section Text", name: "section_text", widget: "text"}
+              - {label: "Section Image", name: "section_image", widget: "image", required: false}
+              - {label: "Section Selection", name: "section_select", widget: "select", options: ["Left", "Right"]}
+
+  - name: "site-lists" # Used in routes, e.g. /admin/collections/blog
+    label: "Clients and Graduates" # Used in the UI
+    files:
+      - name: "client-list"
+        label: "Client List"
+        file: "_data/clients.json" # site.data.clients
+        fields:
+          - {label: "Clients Header", name: "client_header", widget: "string"}
+          - label: "Client List (Column 1)"
+            name: "client_list_col1" # site.data.clients.client_list_col1
+            widget: "list"
+            fields:
+              - {label: "Client Name", name: "client_name", widget: "string"}
+              - {label: "Client Link", name: "client_link", widget: "string", required: false}
+
+          - label: "Client List (Column 2)"
+            name: "client_list_col2" # site.data.clients.client_list_col2
+            widget: "list"
+            fields:
+              - {label: "Client Name", name: "client_name", widget: "string"}
+              - {label: "Client Link", name: "client_link", widget: "string", required: false}
+
+          - label: "Client List (Column 3)"
+            name: "client_list_col3" # site.data.clients.client_list_col3
+            widget: "list"
+            fields:
+              - {label: "Client Name", name: "client_name", widget: "string"}
+              - {label: "Client Link", name: "client_link", widget: "string", required: false}
+
+      - name: "graduate-list"
+        label: "Graduate List"
+        file: "_data/graduates.json" # site.data.graduates
+        fields:
+          - {label: "Graduate Header", name: "grad_header", widget: "string"}
+          - label: "Graduate List (Column 1)"
+            name: "grad_list_col1" # site.data.graduates.grad_list_col1
+            widget: "list"
+            fields:
+              - {label: "Graduate Name", name: "graduate_name", widget: "string"}
+              - {label: "Graduate Link", name: "graduate_link", widget: "string", required: false}
+
+          - label: "Graduate List (Column 2)"
+            name: "grad_list_col2" # site.data.graduates.grad_list_col2
+            widget: "list"
+            fields:
+              - {label: "Graduate Name", name: "graduate_name", widget: "string"}
+              - {label: "Graduate Link", name: "graduate_link", widget: "string", required: false}
+
+          - label: "Graduate List (Column 3)"
+            name: "grad_list_col3" # site.data.graduates.grad_list_col3
+            widget: "list"
+            fields:
+              - {label: "Graduate Name", name: "graduate_name", widget: "string"}
+              - {label: "Graduate Link", name: "graduate_link", widget: "string", required: false}
