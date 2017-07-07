@@ -1,18 +1,10 @@
-# For Atom Feed
-domain: askhollyhow.com
-author: Ask Holly How, LLC
-email: info@askhollyhow.com
-
-
-# Site Settings
 locale                   : "en-US"
-# Keep original, do not replace
-title                    : "Ask Holly How"
+title                    : "The Sunview"
 title_separator          : "-"
-name                     : "Ask Holly How, LLC."
-description              : "You're in control. We're with you along the way."
+name                     : "The Sunview, LLC."
+description              : "The Sunview Luncheonette"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-url                      : "https://hollyhow.netlify.com"
+url                      : ""
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : true # true, false (default)
