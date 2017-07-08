@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: partnerandpartners/holly-how # Path to your Github repository
+  repo: luncheonette/the-sunview # Path to your Github repository
   branch: master # Branch to update
   publish_mode: editorial_workflow
 
@@ -25,7 +25,7 @@ collections:
     files:
       - name: "home" # Used in routes, e.g. /admin/collections/blog
         label: "Home" # Used in the UI
-        file: "index.md"
+        file: "index.html"
         fields: # The fields for each document, usually in front matter
           - {label: "Layout", name: "layout", widget: "hidden", default: "home"}
           - {label: "Body", name: "body", widget: "hidden"}
