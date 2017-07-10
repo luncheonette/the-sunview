@@ -57,13 +57,14 @@
 
     a {
       color: $text-color;
-      text-decoration: none;
+      text-decoration: underline;
     }
   }
 }
 
 .posts-list {
   list-style: none;
+  padding: 0;
 
   li {
     margin: 20px 0;
