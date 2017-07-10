@@ -1,6 +1,7 @@
 ---
 title: 2MF with Nate Heiges
 layout: single
+image: /assets/images/2mf-nate-heiges-flyer.jpg
 ---
 
 Sunday January 29, 2017 @ 5-7pm

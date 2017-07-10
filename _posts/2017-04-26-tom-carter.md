@@ -2,6 +2,7 @@
 title: Tom Carter, Tropical Rock, Jantar
 layout: single
 tags: music
+image: /assets/images/carter-tropical-rock-jantar-flyer.jpg
 ---
 
 Wednesday April 26, 2017 @ 7pm

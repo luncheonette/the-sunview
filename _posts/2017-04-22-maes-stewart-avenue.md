@@ -2,6 +2,7 @@
 title: MAËS with Stewart Avenue
 layout: single
 tags: music performances sound
+image: /assets/images/maes-flyer.jpg
 ---
 
 Saturday April 22, 2017 @ 8pm
