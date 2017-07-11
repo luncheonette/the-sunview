@@ -13,9 +13,9 @@ layout: base
 </section>
 
 <section class="featured-posts">
-  <ul class="posts-grid row">
+  <ul class="posts-grid">
   {% for post in site.posts %}
-    <li class="post col-md-4">
+    <li class="post">
       {% if post.image %}
         <img src="{{ post.image }}">
       {% endif %}
