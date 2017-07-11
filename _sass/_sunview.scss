@@ -99,6 +99,9 @@
 
   li {
     margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   a {
@@ -106,15 +109,14 @@
     display: block;
     font-family: $font-family-serif;
     font-size: 30px;
+    margin-right: 20px;
     text-decoration: none;
+  }
 
-    &:after {
-      content: "\00BB";
-      color: $text-color;
-      font-family: $font-family-sans-serif;
-      font-size: 36px;
-      float: right;
-    }
+  span {
+    color: $text-color;
+    font-family: $font-family-sans-serif;
+    font-size: 36px;
   }
 }
 

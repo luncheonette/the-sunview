@@ -37,10 +37,11 @@ layout: base
     </p>
   </header>
 
-  <ul class="posts-list row">
+  <ul class="posts-list">
   {% for post in site.posts %}
-    <li class="post col-md-12">
+    <li class="post">
       <a href="{{ post.url }}">{{ post.title }}</a>
+      <span>&raquo;</span>
     </li>
   {% endfor %}
   </ul>
