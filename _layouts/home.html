@@ -16,12 +16,19 @@ layout: base
   <ul class="posts-grid">
   {% for post in site.posts %}
     <li class="post">
-      {% if post.image %}
+      {% if post.categories contains "media" %}
         <img src="{{ post.image }}">
+        {% if post.image_description %}
+          <p class="image-description">{{ post.image_description }}</p>
+        {% endif %}
+      {% else %}
+        {% if post.image %}
+          <img src="{{ post.image }}">
+        {% endif %}
+        <h3>{{ post.title }}</h3>
+        {{ post.excerpt }}
+        <a href="{{ post.url }}">Keep reading &#187;</a>
       {% endif %}
-      <h3>{{ post.title }}</h3>
-      {{ post.excerpt }}
-      <a href="{{ post.url }}">Keep reading &#187;</a>
     </li>
   {% endfor %}
   </ul>
