@@ -1,7 +1,7 @@
 ---
 title: MAËS with Stewart Avenue
 layout: single
-tags: music performances sound
+tags: music members
 image: /assets/images/maes-flyer.jpg
 ---
 
