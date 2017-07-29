@@ -1,0 +1,18 @@
+---
+layout: base
+title: SLSCR
+---
+
+<section>
+  <h2>{{ page.title }}</h2>
+  <ul class="posts-grid">
+  {% for post in site.tags.slscr %}
+    <li class="post">
+      <img src="{{ post.image | prepend: site.github.url }}">
+      <a href="{{ post.url | prepend: site.sithub.url }}">
+        <h3>{{ post.title }}</h3>
+      </a>
+    </li>
+  {% endfor %}
+  </ul>
+</section>
