@@ -20,6 +20,11 @@
       }
     }
 
+    p,
+    a {
+      font-size: $font-size-base;
+    }
+
     a {
       color: $text-color;
       text-decoration: underline;

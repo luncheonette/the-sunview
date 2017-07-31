@@ -1,8 +1,5 @@
-a {
-  h3 {
-    color: $text-color;
-    text-decoration: none;
-  }
+p {
+  font-size: $font-size-large;
 }
 
 img {
@@ -40,12 +37,6 @@ img {
         margin-left: 20px;
       }
     }
-  }
-}
-
-.post-content {
-  p {
-    font-size: 18px;
   }
 }
 
