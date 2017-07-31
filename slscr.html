@@ -11,9 +11,7 @@ title: SLSCR
       <a class="background-img-container-square" href="{{ post.url | prepend: site.github.url }}">
         <div class="background-img-full" style="background-image: url({{ post.image | prepend: site.github.url }});"></div>
       </a>
-      <a href="{{ post.url | prepend: site.github.url }}">
-        <h3>{{ post.title }}</h3>
-      </a>
+      <h3>{{ post.title }}</h3>
     </li>
   {% endfor %}
   </ul>

@@ -9,6 +9,8 @@
   }
 
   .grid-item {
+    margin: 40px 0;
+
     @media (min-width: $screen-sm-min) {
       width: 45%;
     }

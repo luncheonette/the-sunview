@@ -2,8 +2,8 @@
 layout: base
 ---
 
-<section class="homepage-intro">
-  <p>
+<section>
+  <p class="homepage-intro">
     <span class="h2">The Sunview Luncheonette</span> is a storefront on pause,
     a member-based social club, a microvenue for art, poetics, regionalism,
     mutual aid, and commoning. It is resistant to traditional forms of commerce,
@@ -13,14 +13,14 @@ layout: base
   </p>
 </section>
 
-<section class="featured-posts">
-  <ul class="posts-grid content-grid">
+<section>
+  <ul class="featured-posts posts-grid content-grid">
   {% for post in site.posts %}
-    <li class="post grid-item">
+    <li class="post-preview grid-item">
       {% if post.categories contains "media" %}
         <img src="{{ post.image | prepend: site.github.url }}">
         {% if post.image_description %}
-          <p class="image-description">{{ post.image_description }}</p>
+          <p class="image-caption">{{ post.image_description }}</p>
         {% endif %}
       {% else %}
         {% if post.image %}
@@ -35,7 +35,7 @@ layout: base
   </ul>
 </section>
 
-<section class="members-only">
+<section class="member-events">
   <header>
     <h2>What's happening...</h2>
     <p class="members-only-intro">
@@ -46,10 +46,10 @@ layout: base
     </p>
   </header>
 
-  <ul class="posts-list">
+  <ul class="member-events-list">
   {% assign member_posts = site.posts | where: "tags", "members" %}
   {% for post in member_posts %}
-    <li class="post">
+    <li class="member-event">
       <a href="{{ post.url | prepend: site.github.url }}">{{ post.title }}</a>
       <span>&raquo;</span>
     </li>
