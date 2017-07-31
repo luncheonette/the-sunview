@@ -86,6 +86,11 @@ defaults:
 -
   scope:
     path: ""
+  values:
+    layout: "post"
+-
+  scope:
+    path: ""
     type: "pages"
   values:
     layout: base

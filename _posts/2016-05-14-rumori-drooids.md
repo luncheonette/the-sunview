@@ -1,6 +1,5 @@
 ---
 title: "Rumori//DROOIDS"
-layout: single
 tags: music slscr members
 image: /assets/images/rumori-drooids.jpg
 ---

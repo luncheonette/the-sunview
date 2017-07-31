@@ -1,6 +1,5 @@
 ---
 title: Tom Carter, Tropical Rock, Jantar
-layout: single
 tags: music members
 image: /assets/images/carter-tropical-rock-jantar-flyer.jpg
 ---
