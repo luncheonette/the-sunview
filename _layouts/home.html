@@ -14,9 +14,9 @@ layout: base
 </section>
 
 <section class="featured-posts">
-  <ul class="posts-grid">
+  <ul class="posts-grid content-grid">
   {% for post in site.posts %}
-    <li class="post">
+    <li class="post grid-item">
       {% if post.categories contains "media" %}
         <img src="{{ post.image | prepend: site.github.url }}">
         {% if post.image_description %}

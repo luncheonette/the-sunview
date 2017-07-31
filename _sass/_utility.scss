@@ -1,0 +1,42 @@
+.content-grid {
+  list-style: none;
+  padding: 0;
+
+  @media (min-width: $screen-sm-min) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .grid-item {
+    @media (min-width: $screen-sm-min) {
+      width: 45%;
+    }
+
+    @media (min-width: $screen-md-min) {
+      width: 30%;
+    }
+  }
+}
+
+.background-img-container-square {
+  display: block;
+  position: relative;
+
+  &:before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+    width: 100%;
+  }
+
+  .background-img-full {
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+}

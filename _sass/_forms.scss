@@ -1,0 +1,47 @@
+.email-signup {
+  background-color: $input-bg;
+  color: $input-color;
+  font-family: $font-family-sans-serif;
+  font-size: 18px;
+  margin-top: 120px;
+  padding: 30px 15px;
+  text-align: center;
+
+  @media (min-width: $screen-sm-min) {
+    padding: 40px 80px 80px;
+  }
+
+  form {
+    margin-top: 30px;
+  }
+
+  .mc-field-group {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  input,
+  button {
+    background-color: $input-bg;
+    border: 1px solid $input-color;
+    outline: 0;
+    padding: 15px;
+  }
+
+  input {
+    @include placeholder($input-placeholder);
+    border-right: 0;
+    flex-grow: 4;
+
+    @media (min-width: $screen-sm-min) {
+      border-right: 1px solid $input-color;
+      flex-grow: 5;
+      margin-right: 20px;
+    }
+  }
+
+  button {
+    flex-grow: 1;
+    white-space: nowrap;
+  }
+}
