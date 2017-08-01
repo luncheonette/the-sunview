@@ -18,13 +18,13 @@ layout: base
   {% for post in site.posts %}
     <li class="post-preview grid-item">
       {% if post.categories contains "media" %}
-        <img src="{{ site.baseurl }}{{ post.image }}">
+        <img src="{{ site.baseurl }}/assets/images/{{ post.image }}">
         {% if post.image_description %}
           <p class="image-caption">{{ post.image_description }}</p>
         {% endif %}
       {% else %}
         {% if post.image %}
-          <img src="{{ site.baseurl }}{{ post.image }}">
+          <img src="{{ site.baseurl }}/assets/images/{{ post.image }}">
         {% endif %}
         <h3>{{ post.title }}</h3>
         {{ post.excerpt }}

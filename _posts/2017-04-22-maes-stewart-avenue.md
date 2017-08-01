@@ -1,7 +1,7 @@
 ---
 title: MAËS with Stewart Avenue
 tags: music members
-image: /assets/images/maes-flyer.jpg
+image: maes-flyer.jpg
 ---
 
 Saturday April 22, 2017 @ 8pm

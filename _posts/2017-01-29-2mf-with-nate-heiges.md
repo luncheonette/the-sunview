@@ -1,6 +1,6 @@
 ---
 title: 2MF with Nate Heiges
-image: /assets/images/2mf-nate-heiges-flyer.jpg
+image: 2mf-nate-heiges-flyer.jpg
 tags: members
 ---
 

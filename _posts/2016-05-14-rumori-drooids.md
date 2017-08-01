@@ -1,7 +1,7 @@
 ---
 title: "Rumori//DROOIDS"
 tags: music slscr members
-image: /assets/images/rumori-drooids.jpg
+image: rumori-drooids.jpg
 ---
 
 Saturday May 14, 2016 @ 7:00 PM

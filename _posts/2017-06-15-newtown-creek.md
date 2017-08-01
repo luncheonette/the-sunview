@@ -1,5 +1,5 @@
 ---
-image: /assets/images/newtown-creek.png
+image: newtown-creek.png
 image_description: Just another day on Newtown Creek
 categories: media
 ---

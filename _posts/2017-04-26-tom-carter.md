@@ -1,7 +1,7 @@
 ---
 title: Tom Carter, Tropical Rock, Jantar
 tags: music members
-image: /assets/images/carter-tropical-rock-jantar-flyer.jpg
+image: carter-tropical-rock-jantar-flyer.jpg
 ---
 
 Wednesday April 26, 2017 @ 7pm
