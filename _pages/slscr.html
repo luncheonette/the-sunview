@@ -8,8 +8,8 @@ title: SLSCR
   <ul class="content-grid">
   {% for post in site.tags.slscr %}
     <li class="grid-item">
-      <a class="background-img-container-square" href="{{ post.url | prepend: site.github.url }}">
-        <div class="background-img-full" style="background-image: url({{ post.image | prepend: site.github.url }});"></div>
+      <a class="background-img-container-square" href="{{ site.baseurl }}{{ post.url }}">
+        <div class="background-img-full" style="background-image: url({{ site.baseurl }}{{ post.image }});"></div>
       </a>
       <h3>{{ post.title }}</h3>
     </li>

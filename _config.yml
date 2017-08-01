@@ -3,7 +3,7 @@ title                    : "The Sunview"
 title_separator          : "-"
 name                     : "The Sunview, LLC."
 description              : "The Sunview Luncheonette"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+baseurl                  : "/the-sunview"
 url                      : ""
 email                    : "hello@thesunview.org"
 gh_repo                  :

@@ -6,7 +6,9 @@ layout: base
   <h2>{{ page.title }}</h2>
 </header>
 
-<img src="{{ page.image | prepend: site.github.url }}">
+{% if page.image %}
+  <img src="{{ site.baseurl }}{{ page.image }}">
+{% endif %}
 
 <section class="post-content">
   {{ page.content }}
