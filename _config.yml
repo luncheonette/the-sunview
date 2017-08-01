@@ -39,10 +39,8 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
-# standard jekyll configuration
+permalink: /:title/
 
-# parentsite: https://services.github.com
-# permalink: /articles/:title/
 gems:
   # - jekyll-assets
   # - autoprefixer-rails
