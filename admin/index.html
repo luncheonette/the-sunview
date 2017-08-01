@@ -5,11 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Content Manager</title>
 
-  <link rel="stylesheet" href="https://unpkg.com/netlify-cms@^0.3/dist/cms.css" />
+  <link rel="stylesheet" href="https://unpkg.com/netlify-cms@^0.4/dist/cms.css" />
 
 </head>
 <body>
-  <script src="https://unpkg.com/netlify-cms@^0.3/dist/cms.js"></script>
+  <script src="https://unpkg.com/netlify-cms@^0.4/dist/cms.js"></script>
   <script>
     var CategoriesControl = createClass({
       handleChange: function(e) {
@@ -21,7 +21,18 @@
         return h('input', { type: 'text', value: value ? value.join(', ') : '', onChange: this.handleChange });
       }
     });
+
+    var CategoriesPreview = createClass({
+      render: function() {
+        return h('ul', {},
+          this.props.value.map(function(val, index) {
+            return h('li', {key: index}, val);
+          })
+        );
+      }
+    });
+
     CMS.registerWidget('categories', CategoriesControl);
-    </script>
+  </script>
 </body>
 </html>
