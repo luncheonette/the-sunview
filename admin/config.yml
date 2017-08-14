@@ -19,3 +19,14 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", required: false, widget: "categories"}
       - {label: "Categories", name: "categories", required: false, widget: "categories"}
+      - {label: "Show on Homepage?", name: "show_on_homepage", required: true, widget: "boolean"}
+      - {label: "Homepage Position", name: "homepage_position", required: false, widget: "number"}
+  - name: "images"
+    label: "Image"
+    folder: "_images"
+    create: true
+    fields:
+      - {label: "Image", name: "image", required: true, widget: "image"}
+      - {label: "Image Caption", name: "caption", required: false, widget: "string"}
+      - {label: "Show on Homepage?", name: "show_on_homepage", required: true, widget: "boolean"}
+      - {label: "Homepage Position", name: "homepage_position", required: false, widget: "number"}
