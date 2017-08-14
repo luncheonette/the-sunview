@@ -82,6 +82,8 @@ collections:
   pages:
     output: true
     permalink: /:title/
+  images:
+    output: false
 
 defaults:
 -

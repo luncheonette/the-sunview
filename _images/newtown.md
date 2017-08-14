@@ -1,5 +1,6 @@
 ---
 image: newtown-creek.png
 image_description: Just another day on Newtown Creek
-categories: media
+show_on_homepage: true
+homepage_position: 2
 ---
