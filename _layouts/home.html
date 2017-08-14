@@ -14,10 +14,12 @@ layout: base
 </section>
 
 <section>
+  {% assign home_content = site.documents | where: "show_on_homepage", "true" | sort: "homepage_position" %}
+
   <ul class="featured-posts posts-grid content-grid">
-  {% for post in site.posts %}
+  {% for post in home_content %}
     <li class="post-preview grid-item">
-      {% if post.categories contains "media" %}
+      {% if post.collection == "images" %}
         <img src="{{ site.baseurl }}/assets/images/{{ post.image }}">
         {% if post.image_description %}
           <p class="image-caption">{{ post.image_description }}</p>

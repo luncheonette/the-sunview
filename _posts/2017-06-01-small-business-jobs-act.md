@@ -1,5 +1,7 @@
 ---
 title: "Save Our Jobs: Support the Small Business Jobs Survival Act"
+show_on_homepage: true
+homepage_position: 3
 ---
 
 This petition calls upon Mayor Deblasio, New York City Council Members, and
