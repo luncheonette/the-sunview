@@ -13,20 +13,25 @@
   <script>
     var CategoriesControl = createClass({
       handleChange: function(e) {
-        this.props.onChange(e.target.value.split(',').map((e) => e.trim()));
+        this.props.onChange(e.target.value);
       },
 
       render: function() {
-        var value = this.props.value;
-        return h('input', { type: 'text', value: value ? value.join(', ') : '', onChange: this.handleChange });
+        return h('input', {
+          type: 'text',
+          value: this.props.value,
+          onChange: this.handleChange
+        });
       }
     });
 
     var CategoriesPreview = createClass({
       render: function() {
+        var categories = this.props.value;
+        categories = categories ? categories.split(" ") : [];
         return h('ul', {},
-          this.props.value.map(function(val, index) {
-            return h('li', {key: index}, val);
+          categories.map(function(category, index) {
+            return h('li', { key: index }, category);
           })
         );
       }
