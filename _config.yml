@@ -1,4 +1,5 @@
 locale                   : "en-US"
+lang                     : en
 title                    : "The Sunview"
 title_separator          : "-"
 name                     : "The Sunview, LLC."
@@ -6,29 +7,10 @@ description              : "The Sunview Luncheonette"
 baseurl                  : "/the-sunview"
 url                      : ""
 email                    : "hello@thesunview.org"
-gh_repo                  :
-teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-breadcrumbs              : true # true, false (default)
-words_per_minute         : 200
+timezone                 : America/New_York
 address:
   street                 : 221 Nassau Ave
   city_state             : Brooklyn, NY 11222
-comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", custom"
-  disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
-
-analytics:
-  provider               : google # false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id          : # UA-80557370-2
 
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
@@ -40,43 +22,6 @@ excerpt_separator: "\n\n"
 incremental: false
 
 permalink: /:title/
-
-gems:
-  # - jekyll-assets
-  # - autoprefixer-rails
-#   - jekyll-paginate
-#   - jekyll-sitemap
-#   - jekyll-gist
-#   - jekyll-feed
-#   - jemoji
-
-# exclude:
-# - bin
-# - config.rb
-# - Gemfile
-# - Gemfile.lock
-# - gems
-# - Procfile
-# - Rakefile
-# - README.md
-# - script
-# - vendor
-
-# assets:
-#   # compress:
-#   #   css: false | true | default - development: false, production: true
-#   #   js: false | true | default - development: false, production: true
-#   # cache: false | directory | default: .asset-cache
-#   # cdn: https://cdn.example.com
-#   # skip_baseurl_with_cdn: false
-#   # skip_prefix_with_cdn: false
-#   prefix: "/assets"
-#   assets:
-#     - "*.png"
-#     # - "bundle.css"
-#   digest: true
-#   sources:
-#     - "_assets/fonts"
 
 collections:
   pages:
@@ -100,11 +45,8 @@ defaults:
 
 include:
 - _assets
-# - _stylesheets
-# - _javascript
+
 sass:
   sass_dir: _sass
   style: compressed
 
-# Custom site configuration
-lang: en
