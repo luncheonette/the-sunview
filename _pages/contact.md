@@ -10,4 +10,4 @@ hello [-at-] thesunview [-dot-] org
 locations [-at-] thesunview [-dot-] org
 
 *Press inquiries*\\
-We don’t generally respond to press inquiries.
+We don’t generally respond to press inquiries because it's not open not closed, remember?
