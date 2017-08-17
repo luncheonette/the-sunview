@@ -7,9 +7,9 @@ layout: base
 Help support the Sunview Luncheonette through a one-time donation of any amount.
 The Sunview is not-for-profit and all donations will go toward maintaining the
 building and supporting our programs. We are fiscally sponsored by Brooklyn
-Arts Council, so some donations may be tax-deductible.
+Arts Council, so some donations may be tax-deductible. Contact us to find out.
 
-Send $ (Dwolla) to\\
+Send $ (Dwolla/Venmo/PP) to\\
 {{ site.email }}
 
 Slip cash under the front door or mail a check to:\\
