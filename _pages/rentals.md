@@ -3,8 +3,7 @@ layout: base
 title: Rentals
 ---
 
-The Sunview is available for occasional rental and use by neighbors, film/photo
-crews, and the general public.
+The Sunview is available for occasional rental and use by neighbors, film/photo crews, and the general public.  We are also open to hosting meetings and retreats for small/local nonprofits, local organizing efforts, social-justice focused community groups, so feel free to reach out.
 
 It is a 1960's diner / luncheonette in mostly original decor.
 
