@@ -39,6 +39,10 @@
 
   .event {
     margin: 20px 0;
+
+    &.past {
+      a { color: #a6a6a6; }
+    }
   }
 
   a {
