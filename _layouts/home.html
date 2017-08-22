@@ -39,26 +39,13 @@ layout: base
   </ul>
 </section>
 
-<section class="member-events">
-  <header>
+<section class="events homepage">
+  <header class="events-header">
     <h2>What's happening...</h2>
-    <p class="members-only-intro">
-      The Luncheonette performs semi-public dinners, talks, work-shops,
-      lectures, plays, reading groups, and musical interludes in a semi-private
-      setting. All members are invited to attend. Non-members, please RSVP at
-      <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
-    </p>
+    {% include events-intro.html %}
   </header>
 
-  <ul class="member-events-list">
-  {% assign member_posts = site.posts | where: "tags", "members" %}
-  {% for post in member_posts %}
-    <li class="member-event">
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-      <span>&raquo;</span>
-    </li>
-  {% endfor %}
-  </ul>
+  {% include events-list.html %}
 </section>
 
 <section class="email-signup">

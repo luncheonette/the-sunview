@@ -1,0 +1,11 @@
+<ul class="events-list">
+{% assign member_posts = site.posts | where: "tags", "members" %}
+{% for post in member_posts %}
+  <li class="event">
+    <a href="{{ site.baseurl }}{{ post.url }}">
+      <span class="title">{{ post.title }}</span>
+      <span class="arrow">&raquo;</span>
+    </a>
+  </li>
+{% endfor %}
+</ul>
