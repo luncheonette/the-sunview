@@ -25,12 +25,14 @@ layout: base
           <p class="image-caption">{{ post.image_description }}</p>
         {% endif %}
       {% else %}
-        {% if post.image %}
-          <img src="{{ site.baseurl }}/assets/images/{{ post.image }}">
-        {% endif %}
-        <h3>{{ post.title }}</h3>
-        {{ post.excerpt }}
-        <a href="{{ site.baseurl }}{{ post.url }}">Keep reading &#187;</a>
+        <a class="post-preview-link" href="{{ site.baseurl }}{{ post.url }}">
+          {% if post.image %}
+            <img src="{{ site.baseurl }}/assets/images/{{ post.image }}">
+          {% endif %}
+          <h3>{{ post.title }}</h3>
+          {{ post.excerpt }}
+          <span>Keep reading &#187;</span>
+        </a>
       {% endif %}
     </li>
   {% endfor %}

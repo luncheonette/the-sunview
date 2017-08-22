@@ -11,6 +11,15 @@
     text-align: center;
     margin: 80px 0;
 
+    .post-preview-link {
+      color: $text-color;
+      display: block;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
     h3 {
       &:after {
         content: "\2014";
@@ -20,13 +29,11 @@
       }
     }
 
-    p,
-    a {
+    p {
       font-size: $font-size-base;
     }
 
-    a {
-      color: $text-color;
+    span {
       text-decoration: underline;
     }
 
