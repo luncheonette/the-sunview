@@ -3,7 +3,10 @@
 {% for post in member_posts %}
   <li class="event" data-date="{{ post.date }}">
     <a href="{{ site.baseurl }}{{ post.url }}">
-      <span class="title">{{ post.title }}</span>
+      <div>
+        <span class="title">{{ post.title }}</span>
+        <span>{{ post.date | date: "%A %B %-d, %Y" }}</span>
+      </div>
       <span class="arrow">&raquo;</span>
     </a>
   </li>
