@@ -22,6 +22,20 @@ collections:
       - {label: "Categories", name: "categories", required: false, widget: "categories"}
       - {label: "Show on Homepage?", name: "show_on_homepage", required: true, widget: "boolean"}
       - {label: "Homepage Position", name: "homepage_position", required: false, widget: "number"}
+  - name: "resources"
+    label: "Resource"
+    folder: "_resources"
+    create: true
+    slug: "{{title}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string"}
+      - {label: "Image", name: "image", required: false, widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Tags", name: "tags", required: false, widget: "categories"}
+      - {label: "Categories", name: "categories", required: false, widget: "categories"}
+      - {label: "Show on Homepage?", name: "show_on_homepage", required: true, widget: "boolean"}
+      - {label: "Homepage Position", name: "homepage_position", required: false, widget: "number"}
   - name: "page"
     label: "Page"
     folder: "_pages"

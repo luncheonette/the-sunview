@@ -28,6 +28,9 @@ collections:
   pages:
     output: true
     permalink: /:title/
+  resources:
+    output: true
+    permalink: /:title/
   images:
     output: false
 

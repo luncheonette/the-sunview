@@ -1,6 +1,5 @@
 <ul class="events-list">
-{% assign member_posts = site.posts | where: "tags", "members" %}
-{% for post in member_posts %}
+{% for post in site.posts %}
   <li class="event" data-date="{{ post.date }}">
     <a href="{{ site.baseurl }}{{ post.url }}">
       <div>

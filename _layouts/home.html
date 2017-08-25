@@ -30,7 +30,11 @@ layout: base
             <img src="{{ site.baseurl }}/assets/images/{{ post.image }}">
           {% endif %}
           <h3>{{ post.title }}</h3>
-          {{ post.excerpt }}
+          {% if post.collection == "resources" %}
+            {{ post.excerpt }}
+          {% else %}
+            <p>{{ post.date | date: "%A %B %-d, %Y" }}</p>
+          {% endif %}
           <span>Keep reading &#187;</span>
         </a>
       {% endif %}
