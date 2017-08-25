@@ -14,6 +14,13 @@ layout: base
 {% endif %}
 
 <section class="post-content">
+  <p class="date-info">
+  {% if page.date_info %}
+    {{ page.date_info }}
+  {% else %}
+    {{ page.date | date: "%A %B %-d, %Y" }}
+  {% endif %}
+  </p>
   {{ page.content }}
 </section>
 

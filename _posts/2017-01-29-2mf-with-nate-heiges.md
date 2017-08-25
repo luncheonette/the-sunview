@@ -2,9 +2,8 @@
 title: 2MF with Nate Heiges
 image: 2mf-nate-heiges-flyer.jpg
 tags: members
+date_info: Sunday January 29, 2017 @ 5-7pm
 ---
-
-Sunday January 29, 2017 @ 5-7pm
 
 *Refreshments will be served*
 

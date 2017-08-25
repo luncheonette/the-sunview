@@ -2,9 +2,8 @@
 title: Tom Carter, Tropical Rock, Jantar
 tags: music members
 image: carter-tropical-rock-jantar-flyer.jpg
+date_info: Wednesday April 26, 2017 @ 7pm
 ---
-
-Wednesday April 26, 2017 @ 7pm
 
 Next Wednesday, April 26, there will a nice show at the luncheonette - Tom
 Carter, Tropical Rock (Ka Baird and Camilla Padgett-Coles), and Jantar. It

@@ -2,9 +2,8 @@
 title: MAËS with Stewart Avenue
 tags: music members
 image: maes-flyer.jpg
+date_info: Saturday April 22, 2017 @ 8pm
 ---
-
-Saturday April 22, 2017 @ 8pm
 
 Join us for MAËS (Boston), a electronic-jazz quintet performing between DJ
 sets from Stewart Avenue (NYC) radio. Broadcast live over their station from
