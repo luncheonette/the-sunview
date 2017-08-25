@@ -50,6 +50,10 @@ layout: base
   </header>
 
   {% include events-list.html %}
+  <p id="events-placeholder" class="events-placeholder hidden">
+    Nothing coming up right now.
+    <a href="{{ site.baseurl }}/events">Explore things that have already happened</a>
+  </p>
 </section>
 
 <section class="email-signup">
@@ -57,3 +61,4 @@ layout: base
   {% include email-signup.html %}
 </section>
 
+<script>Sunview.Events.hidePastEvents();</script>
