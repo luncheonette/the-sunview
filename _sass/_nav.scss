@@ -1,0 +1,51 @@
+.site-nav {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+
+  ul {
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
+    padding: 0;
+  }
+
+  a {
+    color: $text-color;
+    display: block;
+    font-family: $headings-font-family;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+
+  .site-links {
+    position: relative;
+
+    @media (min-width: $screen-sm-min) {
+      display: flex;
+
+      a {
+        margin-left: 20px;
+      }
+    }
+  }
+
+  .menu-dropdown {
+    background: $body-bg;
+    border: 2px solid $text-color;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+
+    @media (min-width: $screen-sm-min) {
+      text-align: right;
+      top: 30px;
+      right: -10px;
+    }
+
+    li { margin: 5px 0; }
+    a  { font-size: 14px; }
+  }
+}

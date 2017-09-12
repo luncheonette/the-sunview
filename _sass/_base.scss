@@ -15,28 +15,3 @@ img {
     padding-bottom: 60px;
   }
 }
-
-.site-nav {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 40px;
-
-  a {
-    color: $text-color;
-    display: block;
-    font-family: $headings-font-family;
-    font-size: 16px;
-    text-transform: uppercase;
-  }
-
-  .site-links {
-    @media (min-width: $screen-sm-min) {
-      display: flex;
-
-      a {
-        margin-left: 20px;
-      }
-    }
-  }
-}
-
