@@ -14,7 +14,9 @@ layout: base
 </section>
 
 <section>
-  {% assign home_content = site.documents | where: "show_on_homepage", "true" | sort: "homepage_position" %}
+  {% assign home_content = site.documents |
+    where_exp: "item", "item.homepage_position != nil" |
+    sort: "homepage_position" %}
 
   <ul class="featured-posts posts-grid content-grid">
   {% for post in home_content %}
