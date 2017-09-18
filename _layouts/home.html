@@ -30,7 +30,7 @@ layout: base
             <img src="{{ site.baseurl }}/assets/images/{{ post.image }}">
           {% endif %}
           <h3>{{ post.title }}</h3>
-          {% if post.collection == "resources" %}
+          {% if post.collection == "pages" %}
             {{ post.excerpt }}
           {% else %}
             <p>{{ post.date | date: "%A %B %-d, %Y" }}</p>

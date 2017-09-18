@@ -42,7 +42,7 @@ defaults:
     path: ""
     type: "pages"
   values:
-    layout: base
+    layout: "page"
 
 include:
 - _assets
