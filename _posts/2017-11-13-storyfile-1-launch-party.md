@@ -1,5 +1,6 @@
 ---
 title: 'Storyfile #1 Launch Party'
+event_date: 2017-10-27T20:00:00-04:00
 image: /assets/images/storyfile1-371x500.jpg
 categories: readings
 ---
