@@ -4,14 +4,25 @@ layout: page
 
 <section class="post-content">
   <p class="date-info">
-  {% if page.date_info %}
-    {{ page.date_info }}
+  {% if page.event_date %}
+    {{ page.event_date | date: "%A %B %-d, %Y @ %l:%M %P" }}
   {% else %}
     {{ page.date | date: "%A %B %-d, %Y" }}
   {% endif %}
   </p>
   {{ page.content }}
 </section>
+
+{% if page.categories %}
+  <section class="categories">
+    <ul>
+      {% assign categories = page.categories %}
+      {% for category in categories %}
+        <li>{{category}}</li>
+      {% endfor %}
+    </ul>
+  </section>
+{% endif %}
 
 {% if page.tags %}
   <section class="tags">

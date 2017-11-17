@@ -1,0 +1,20 @@
+---
+title: 'Constance Hockaday: "Blue" Preview'
+main_image: /assets/images/hockaday.jpg
+date: 2016-05-13 12:31:47.000000000 -05:00
+event_date: 2016-05-20T20:00:00-04:00
+permalink: constance-hockaday-blue/
+published: true
+categories:
+- Environmental
+- Performances
+- Presentations
+---
+<p>Please join us on Club Night, Friday May 20th, for a preview presentation of <em>Blue</em>, a cinematic and performative lecture by artist <strong>Constance Hockaday –</strong> a stream of associations exploring how the history of the color blue, sandy beach survival strategies, Elizabeth Taylor’s funeral, and the epistemology of the word hope come together to compose some people’s obsession with the water.</p>
+<p>This is a special preview of <em>Blue</em> which will also be performed the following day at the Parrish Art Museum as part of the exhibition <a href="http://parrishart.org/RadicalSeafaring">Radical Seafaring</a>.</p>
+<p>A custom blue OceanMist cocktail will be served, otherwise BYOB.</p>
+<p><span style="text-decoration: underline;">About the Artist</span></p>
+<p><strong>Constance Hockaday</strong> is a Chilean American visual artist who grew up on the water in Port Isabel, Texas, 5 miles from where the Rio Grande River dumps into the Gulf of Mexico. She has created outsider maritime projects for more than 15 years, from a boat hotel the Guardian called “a New York City success story” to a floating peep show bobbing in the San Francisco harbor that highlighted the loss of spaces for the Bay Area’s queer community. Hockaday began working with boats at a young age. At 19, she joined up with the <a href="http://t.sidekickopen52.com/e1t/c/5/f18dQhb0S7lC8dDMPbW2n0x6l2B9nMJN7t5XZsQsN6TW64QSLj3LyGzzW7fsH1M56dNHwd4Mrm202?t=http%3A%2F%2Fwww.floatingneutrinos.com%2F&amp;si=5809655466426368&amp;pi=c32a9401-4919-4c0a-eb11-68e8893a379f">Floating Neutrinos</a>, a renowned family of wanderers who sailed around the world in handmade rafts who taught Hockaday to craft boats from found materials. In 2006 she began a three-year collaboration with the street artist SWOON for Deitch Projects called Swimming Cities. SWOON, Hockaday and the other participants sailed floating sculptures and handcrafted vessels along the Hudson and Mississippi Rivers as well as the Adriatic Sea. Hockaday coordinated safety and logistics on the boats and captained her own vessel across the Adriatic to crash the Venice Biennale. In 2011 she created the Boatel in NYC’s Far Rockaways, a floating hotel and arts space made of refurbished salvaged vessels that hosted residents and art goers for overnight visits and performances in an effort to reconnect New Yorkers to the waterfronts and urban waterways of their cities. The project brought in audiences of over 5000 people and garnered press and critical acclaim everywhere from the New York Times and The Guardian to NPR and El Pais. Her most recent performance installation, “All These Darlings and Now Us,” commissioned by Southern Exposure in San Francisco, was described by the New York Times as a powerful “commentary on the forces of technification and gentrification roiling San Francisco.” Peepshow performances by strippers, drag queens, and performance artists from two recently shuttered iconic queer businesses, The Lusty Lady and Esta Noche, took place on a raft of retrofitted sailboats. More than a thousand people watched the shows, many brought to the boats on skiffs. Hockaday holds an MFA in Social Practice and a Masters in Conflict Resolution from Portland State University and BA from Prescott College. She is a 2014 TED Fellow and has received grants from The Puffin Foundation, Southern Exposure, the City of Oakland, and the East Bay Artist Fund. As well as commissions from Flux Factory and the San Francisco MOMA.</p>
+<p><span style="text-decoration: underline;">Address</span></p>
+<p>Sunview Luncheonette, 221 Nassau Avenue (corner of N. Henry St.)</p>
+<p><img class="alignnone size-full wp-image-1444" src="{{ site.baseurl }}/assets/Hockaday11.jpg" alt="Hockaday+11" width="800" height="557" /></p>
