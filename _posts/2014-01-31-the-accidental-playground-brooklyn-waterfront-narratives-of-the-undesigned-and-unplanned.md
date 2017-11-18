@@ -1,0 +1,41 @@
+---
+layout: post
+title: 'The Accidental Playground: Narratives / Undesigned + Unplanned'
+date: 2014-01-31 13:46:36.000000000 -06:00
+type: post
+published: true
+status: publish
+categories:
+- Presentations
+- Readings
+tags: []
+meta:
+  _edit_last: '1'
+  _thumbnail_id: '187'
+  event_date: '20140207'
+  _event_date: field_533db715d5a6a
+  time: 7:30 PM
+  _time: field_533db72cd5a6b
+  subtitle: ''
+  _subtitle: field_5346ca80f11f4
+author:
+  login: gauthier.dylan@gmail.com
+  email: gauthier.dylan@gmail.com
+  display_name: gauthier.dylan@gmail.com
+  first_name: ''
+  last_name: ''
+---
+<p><span style="color: #000000;">Dear Sunview,</span></p>
+<p><span style="color: #000000;"><span style="line-height: 1.5em;">Join us this<strong> Friday, February 7, 2014 @ 7:30 pm</strong> for a conversation with <strong>Daniel Campo</strong> on </span><span style="text-decoration: underline;"><a href="http://www.amazon.com/Accidental-Playground-Waterfront-Narratives-Undesigned/dp/0823251861/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1391097916&amp;sr=1-1"><span style="color: #000000; text-decoration: underline;">The Accidental Playground: Brooklyn Waterfront Narratives of the Undesigned and Unplanned</span></a></span> his book on <em>Slab</em> – that hardscrabble concrete, rock, and scrub brush sort of <i>de facto</i> park/vacant lot/blank slate/thing that edged the water and the land on North 7th Street and Kent Avenues before it became the back yard for glass condo towers.  Maybe you called it <em>Slab, </em>too, or called it the State Park, or just thought of it as that place you found one day and then kept coming back to.  The night begins the series of things – a thought process, really – that Lacey and I are organizing for members and friends of the Luncheonette - what we're calling<em><span style="color: #33cccc;"> unPlanned: On the City As We Might Know It</span> </em>on (urban) planning, nonplanning, unplanning and undoing the (neoliberal) city as it stands toward creating the city we want to actually live in.  I think the Luncheonette and you all are a big part of this thought process.</span></p>
+<p><span style="color: #000000;">We'll get started at 7:30 and will have hot soup and crusted bread and hot ginger tea toddies.  Oh, and we're excited to have our neighbors from <a href="http://nag-brooklyn.org/"><span style="color: #000000;">NAG</span></a> attending this event.  Hope you can make it, too.</span></p>
+<p><span style="color: #000000;">All Best,</span></p>
+<p><span style="color: #000000;">DG/LT</span></p>
+<p><strong><span style="line-height: 1.5em;">About Dan's Book:</span></strong></p>
+<p>"<a href="http://fordhampress.com/index.php/the-accidenta-payground-paperback.html">The Accidental Playground</a> explores the remarkable landscape created by individuals and small groups who occupied and rebuilt an abandoned Brooklyn waterfront. While local residents, activists, garbage haulers, real estate developers, speculators, and two city administrations fought over the fate of the former Brooklyn Eastern District Terminal (BEDT), others simply took to this decaying edge, transforming it into a unique venue for leisure, creative, and everyday practices. These occupiers and do-it-yourself builders created their own waterfront parks and civic spaces absent every resource needed for successful urban development, including plans, designs, capital, professional assistance, consensus, and permission from the waterfront’s owners. Amid trash, ruins, weeds, homeless encampments, and the operation of an active garbage transfer station, they inadvertently created the “Brooklyn Riviera” and made this waterfront a destination that offered much more than its panoramic vistas of the Manhattan skyline. The terminal evolved into the home turf for unusual and sometimes spectacular recreational, social, and creative subcultures, including the skateboarders who built a short-lived but nationally renowned skatepark, a twenty-five-piece “public” marching band, fire performance troupes, artists, photographers, and filmmakers. At the same time it served the basic recreational needs of local residents. Collapsing piers became great places to catch fish, sunbathe, or take in the views; the foundation of a demolished warehouse became an ideal place to picnic, practice music, or do an art project; rubble-strewn earth became a compelling setting for film and fashion shoots; a broken bulkhead became a beach; and thick patches of weeds dotted by ailanthus trees became a jungle. These reclamations, all but ignored by city and state governments and property interests that were set to transform this waterfront, momentarily added to the distinctive cultural landscape of the city’s most bohemian and rapidly changing neighborhood.</p>
+<p>Drawing on a rich mix of documentary strategies, including observation, ethnography, photography, and first-person narrative, Daniel Campo probes this accidental playground, allowing those who created it to share and examine their own narratives, perspectives, and conflicts. The multiple constituencies of this waterfront were surprisingly diverse, their stories colorful and provocative. When taken together, Campo argues, they suggest a radical reimagining of urban parks and public spaces, and the practices by which they are created and maintained."</p>
+<p>You can also read a review of the book here:<br />
+<a href="http://www.theatlanticcities.com/neighborhoods/2013/09/accidental-playground-what-we-need-our-parks-more-freedom/6754/">http://www.theatlanticcities.com/neighborhoods/2013/09/accidental-playground-what-we-need-our-parks-more-freedom/6754/</a></p>
+<p><strong>About Dan:</strong></p>
+<p>Daniel Campo is associate professor in the School of Architecture and Planning at Morgan State University in Baltimore. He is a National Endowment for the Humanities faculty scholar and the author<i>The Accidental Playground: Brooklyn Waterfront Narratives of the Undesigned and Unplanned </i>(Fordham University Press, 2013). He has also published scholarly and popular articles on a range of urban topics, including American urbanism, public space studies, cultural geography, historic preservation, and downtown and waterfront revitalization. Previously, he was a planner with the New York City Department of City Planning. He holds a Ph.D. from the University of Pennsylvania, a Master of Urban Planning from Hunter College, and a Bachelor of Arts from Binghamton University.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
