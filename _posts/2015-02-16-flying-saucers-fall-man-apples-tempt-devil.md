@@ -1,0 +1,22 @@
+---
+title: FLYING SAUCERS AND THE "FALL OF MAN" – APPLES TO TEMPT THE DEVIL
+subtitle: An Artist Talk by Joe Davis
+main_image: /assets/images/flying-saucers.jpg
+date: 2015-02-16 17:42:02.000000000 -06:00
+event_date: 2015-02-20T19:00:00-04:00
+published: true
+categories:
+- Presentations
+---
+<p>The Sunview and CLAKULA-Gauthier present:</p>
+<p>[Short]</p>
+<p>An overview of a now successful effort to sequence and assemble the genome of <i>Malus sieversii</i>, the wild ancestor of all domesticated apples by participants of an international consortium organized as the first project of its kind in art and science. A companion project to clone that apple with a highly compressed version of Wikipedia is also described.</p>
+<p>[More]</p>
+<p>Controversy persists concerning many aspects of our understanding of the universe around us. We still find whole chapters of history being rendered secret or forbidden for religious or political purposes. There are daily reminders that the catastrophic and bitter conflict between wisdom with knowledge is still underway and that it continues to devastate our world and plunder its treasures.</p>
+<p>As the legendary “fruit of temptation,” the apple has become a nearly universal symbol for what we know and what we choose not to know. In the last decade, advances in plant genomics have shed light on long-standing questions about the origins of the today’s domestic apples (Malus x domestica) now diversified into thousands of varieties cultivated worldwide. The genome of <em>Malus sieversii</em>, the progenitor fruit (a wild, diploid apple native to Central Asia) has now been sequenced and assembled by participants of an international consortium organized as the first project of its kind in art and science.</p>
+<p>Despite the agricultural value of domesticated apples, populations of the wild <em>Malus sieversii</em> progenitor species still exist today, closely related to those of biblical time periods. They also display diverse phenotypic characters that represent a critical genetic resource for disease resistance, fruit quality, and tree physiology of today’s cultivated apple. Traits lost in domestic apples may thus be recovered.</p>
+<p>A companion project is also underway to clone <em>Malus sieversii</em> with encyclopedic information using Agrobacterium vectors to insert DNA encoded with a highly compressed version of Wikipedia. Ironically, this effort has confronted several deeply philosophical questions that are also familiar to researchers focused on the search for extraterrestrial intelligence. Both of these scenarios pose fundamental questions about nature of human beings and of the universe they perceive themselves to be part. How are such messages composed and implemented? How can the information they contain be correctly interpreted? Is this what we know? Is this who we are?<b><br />
+</b><b></b><b><br />
+</b>[bio]</p>
+<p>Joe Davis (b. 04 Dec 1950): B.A. Creative Arts, Mt Angel College, Mt. Angel OR, 1973. Undergraduate work (laser art) at Bell Telephone Laboratories, Murray Hill NJ; University of Cincinnati Medical Center Laser Laboratory (1972-74). Lecturer/Research Fellow, MIT Center for Advanced Visual Studies (1981-1990); Artist Scientist, George Church Laboratory, Department of Genetics, Harvard Medical School (2010-current); Research Affiliate, Alexander Rich Laboratory, MIT Department of Biology (1990-2013); Research Affiliate, Thomas Schwartz Laboratory, MIT Department of Biology (2013-current); “Honorary Lab Member” Ashley Seifert Laboratory, University of Kentucky (2015); Visiting Professor, Bauhaus University, Weimar (2012-13); Research Associate, McLuhan Program, University of Toronto (1995-2008); Visiting Scholar, University of Washington (2011).Research in lasers and laser carving, optoacoustics, microscopy, molecular biology, microbiology. Created specialized programming languages for production of new biological art forms and biologically compatible databases to hold human language and generic image archives in living organisms. Helped to pioneer fields in art and molecular biology and carried out several widely recognized contributions to the Search for Extraterrestrial Intelligence. Created large-scale, permanent public art (sculpture/fountain/pedestrian lights) in Kendall Sq., Cambridge MA (1989). Rockefeller Fellow (1986 and 2008). Awarded “Golden Nica” in Hybrid Arts, Ars Electronica (2012).</p>
+<p><img src="{{ site.baseurl }}/assets/images/flying-saucers-2.jpg" alt="flying saucers 2" width="640" height="480" /></p>
