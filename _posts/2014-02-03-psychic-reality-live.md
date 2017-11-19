@@ -1,28 +1,11 @@
 ---
-layout: post
 title: psychic reality and future food
+main_image: /assets/images/psychic-reality-future-food.jpg
 date: 2014-02-03 13:07:04.000000000 -06:00
-type: post
+event_date: 2014-02-03 20:00:00.000000000 -06:00
 published: true
-status: publish
 categories:
 - Performances
-tags: []
-meta:
-  _edit_last: '1'
-  _thumbnail_id: '195'
-  event_date: '20140203'
-  _event_date: field_533db715d5a6a
-  time: ''
-  _time: field_533db72cd5a6b
-  subtitle: ''
-  _subtitle: field_5346ca80f11f4
-author:
-  login: gauthier.dylan@gmail.com
-  email: gauthier.dylan@gmail.com
-  display_name: gauthier.dylan@gmail.com
-  first_name: ''
-  last_name: ''
 ---
 <p>hi lovely all</p>
 <p>on monday at luncheonette (nassau/henry in gpointe)</p>

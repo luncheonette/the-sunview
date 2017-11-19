@@ -1,28 +1,11 @@
 ---
-layout: post
 title: 'Lisa Schonberg: The Hylaeus Project'
+main_image: /assets/images/62_landscapecaseyarrons-copy.jpg
 date: 2014-01-22 13:07:37.000000000 -06:00
-type: post
+event_date: 2014-01-26T18:00:00-04:00
 published: true
-status: publish
 categories:
 - Readings
-tags: []
-meta:
-  _edit_last: '1'
-  _thumbnail_id: '171'
-  event_date: '20140126'
-  _event_date: field_533db715d5a6a
-  time: ''
-  _time: field_533db72cd5a6b
-  subtitle: ''
-  _subtitle: field_5346ca80f11f4
-author:
-  login: gauthier.dylan@gmail.com
-  email: gauthier.dylan@gmail.com
-  display_name: gauthier.dylan@gmail.com
-  first_name: ''
-  last_name: ''
 ---
 <p>Dear Sunview–</p>
 <p>This <strong>Sunday January 26th</strong>, <strong>Lisa Shonberg</strong> joins us to celebrate the release of <a href="www.publicationstudio.biz/books/249">her book</a>, <i>The Hylaeus Project**</i>, at <a href="http://www.thesunview.org">Sunview</a>. <strong>Aidan Koch</strong> will join her via Skype for an artist talk, and they will share photos, stories, and sounds from their expedition.  Book release at <b>6</b>, members dinner at <b>8:30</b>, &amp; with any luck bee sounds thereafter till midnight.</p>

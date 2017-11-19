@@ -1,29 +1,12 @@
 ---
-layout: post
 title: 'The Accidental Playground: Narratives / Undesigned + Unplanned'
+main_image: /assets/images/campos.png
 date: 2014-01-31 13:46:36.000000000 -06:00
-type: post
+event_date: 2014-02-07T19:30:00-04:00
 published: true
-status: publish
 categories:
 - Presentations
 - Readings
-tags: []
-meta:
-  _edit_last: '1'
-  _thumbnail_id: '187'
-  event_date: '20140207'
-  _event_date: field_533db715d5a6a
-  time: 7:30 PM
-  _time: field_533db72cd5a6b
-  subtitle: ''
-  _subtitle: field_5346ca80f11f4
-author:
-  login: gauthier.dylan@gmail.com
-  email: gauthier.dylan@gmail.com
-  display_name: gauthier.dylan@gmail.com
-  first_name: ''
-  last_name: ''
 ---
 <p><span style="color: #000000;">Dear Sunview,</span></p>
 <p><span style="color: #000000;"><span style="line-height: 1.5em;">Join us this<strong> Friday, February 7, 2014 @ 7:30 pm</strong> for a conversation with <strong>Daniel Campo</strong> on </span><span style="text-decoration: underline;"><a href="http://www.amazon.com/Accidental-Playground-Waterfront-Narratives-Undesigned/dp/0823251861/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1391097916&amp;sr=1-1"><span style="color: #000000; text-decoration: underline;">The Accidental Playground: Brooklyn Waterfront Narratives of the Undesigned and Unplanned</span></a></span> his book on <em>Slab</em> – that hardscrabble concrete, rock, and scrub brush sort of <i>de facto</i> park/vacant lot/blank slate/thing that edged the water and the land on North 7th Street and Kent Avenues before it became the back yard for glass condo towers.  Maybe you called it <em>Slab, </em>too, or called it the State Park, or just thought of it as that place you found one day and then kept coming back to.  The night begins the series of things – a thought process, really – that Lacey and I are organizing for members and friends of the Luncheonette - what we're calling<em><span style="color: #33cccc;"> unPlanned: On the City As We Might Know It</span> </em>on (urban) planning, nonplanning, unplanning and undoing the (neoliberal) city as it stands toward creating the city we want to actually live in.  I think the Luncheonette and you all are a big part of this thought process.</span></p>

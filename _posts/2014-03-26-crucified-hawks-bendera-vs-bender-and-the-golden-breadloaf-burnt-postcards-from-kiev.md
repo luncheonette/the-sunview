@@ -1,28 +1,13 @@
 ---
 layout: post
 title: "...Burnt Postcards From Kiev"
+main_image: /assets/images/Nastya-talk-Sasha-Burlaka-photo.png
 date: 2014-03-26 23:23:18.000000000 -05:00
+event_date: 2014-04-02 19:30:00.000000000 -05:00
 type: post
 published: true
-status: publish
 categories:
 - Presentations
-tags: []
-meta:
-  _edit_last: '1'
-  _thumbnail_id: '326'
-  event_date: '20140402'
-  _event_date: field_533db715d5a6a
-  time: ''
-  _time: field_533db72cd5a6b
-  subtitle: ''
-  _subtitle: field_5346ca80f11f4
-author:
-  login: gauthier.dylan@gmail.com
-  email: gauthier.dylan@gmail.com
-  display_name: gauthier.dylan@gmail.com
-  first_name: ''
-  last_name: ''
 ---
 <p>Please come to the Sunview next <strong>Wednesday, April 2nd @ 7:30 PM</strong>. Anastasiya Osipova will be speaking on the revolution in Ukraine and:</p>
 <h2><em><strong>Crucified Hawks, Bendera vs. Bender, and the Golden Breadloaf: </strong><strong>Burnt Postcards From Kiev</strong></em></h2>
@@ -33,4 +18,4 @@ author:
 <p>Photo Credit: Alexandr (Sasha) Burlaka</p>
 <p><strong>Download a PDF of Circling the Square from Cicada Press's Website, here:</strong></p>
 <p><a href="http://www.cicadapress.net/titles/#Circling">http://www.cicadapress.net/titles/#Circling</a></p>
-<p><a href="http://thesunview.org/wp-content/uploads/2014/03/CirclingTheSquare_CicadaPress_Maidan.jpg"><img class="alignnone size-large wp-image-539" src="{{ site.baseurl }}/assets/CirclingTheSquare_CicadaPress_Maidan-1024x832.jpg" alt="CirclingTheSquare_CicadaPress_Maidan" width="640" height="520" /></a></p>
+<p><img src="{{ site.baseurl }}/assets/images/CirclingTheSquare_CicadaPress_Maidan.jpg" alt="CirclingTheSquare_CicadaPress_Maidan" width="640" height="520" /></p>

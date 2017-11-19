@@ -1,28 +1,11 @@
 ---
-layout: post
 title: UTOPIA SCHOOL 1st Open Review Session
+main_image: /assets/images/US-Domes-1024x1024.jpg
 date: 2014-03-20 11:07:12.000000000 -05:00
-type: post
+event_date: 2014-03-25 20:00:00.000000000 -05:00
 published: true
-status: publish
 categories:
 - Presentations
-tags: []
-meta:
-  _edit_last: '1'
-  _thumbnail_id: '298'
-  event_date: '20140325'
-  _event_date: field_533db715d5a6a
-  time: ''
-  _time: field_533db72cd5a6b
-  subtitle: ''
-  _subtitle: field_5346ca80f11f4
-author:
-  login: gauthier.dylan@gmail.com
-  email: gauthier.dylan@gmail.com
-  display_name: gauthier.dylan@gmail.com
-  first_name: ''
-  last_name: ''
 ---
 <p>Hope you can make it on Tuesday, March 25th at 8PM to the Sunview Luncheonette for a group discussion/planning and general information session for <a href="http://utopiaschool.org">Utopia School</a> (more info on U.S. is below**).</p>
 <p>Even if you're not sure what Utopia School is or this is the first you're hearing about it, but you are, like me, always desirous of injecting more utopian thinking &amp; planning &amp; discourse into a dystopically-fixated culture, come and meet with us and help plan the project.</p>
@@ -40,6 +23,3 @@ You tell us. Let's try.</p>
 <p>We are operating on rolling deadlines, with submissions due on the 15th of each month, until July 15th, which will be our final deadline. Deadlines are also followed up by OPEN review sessions, in person (and with food), so check the website for updates on when we’re eating together. We look forward to meeting you.</p>
 <p>XOXO, The Utopia School Team<br />
 utopiaschool.org</p>
-<p>[background bokeh="yes" particles="yes" stars="yes" slice="yes" sliceglimmer="yes" overlay="no"]<br />
-[background_image]http://thesunview.org/wp-content/uploads/2014/03/IMG_5232.jpg[/background_image]<br />
-[/background]</p>

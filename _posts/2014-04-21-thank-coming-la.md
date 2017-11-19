@@ -1,29 +1,11 @@
 ---
-layout: post
 title: Thank You For Coming (LA)
+main_image: /assets/images/thank-you-for-coming-la.jpg
 date: 2014-04-21 05:55:41.000000000 -05:00
-type: post
+event_date: 2014-04-24 22:00:00.000000000 -05:00
 published: true
-status: publish
 categories:
 - Presentations
-tags: []
-meta:
-  _edit_last: '1'
-  _oembed_65eee1c9f92da1c7582813456a113373: "{{unknown}}"
-  event_date: '20140424'
-  _event_date: field_533db715d5a6a
-  time: 7 PM (PDT)
-  _time: field_533db72cd5a6b
-  subtitle: ''
-  _subtitle: field_5346ca80f11f4
-  _thumbnail_id: '436'
-author:
-  login: gauthier.dylan@gmail.com
-  email: gauthier.dylan@gmail.com
-  display_name: gauthier.dylan@gmail.com
-  first_name: ''
-  last_name: ''
 ---
 <p>Dear Friends,</p>
 <p>I will be making a presentation with my artist group Et al. around our work with the Sunview Luncheonette this Thursday in LA (infos below).</p>

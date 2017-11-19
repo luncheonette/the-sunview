@@ -1,29 +1,12 @@
 ---
-layout: post
 title: 'Blueologies: Investing in Color'
+main_image: /assets/images/blueologiesmedium.jpg
 date: 2014-01-21 13:19:11.000000000 -06:00
-type: post
+event_date: 2014-01-24T19:00:00-04:00
 published: true
-status: publish
 categories:
 - Exhibitions
 - Presentations
-tags: []
-meta:
-  _edit_last: '1'
-  event_date: '20140124'
-  _event_date: field_533db715d5a6a
-  time: ''
-  _time: field_533db72cd5a6b
-  subtitle: ''
-  _subtitle: field_5346ca80f11f4
-  _thumbnail_id: '500'
-author:
-  login: gauthier.dylan@gmail.com
-  email: gauthier.dylan@gmail.com
-  display_name: gauthier.dylan@gmail.com
-  first_name: ''
-  last_name: ''
 ---
 <p><a href="http://gauthier-gallery.com/blueologies/">http://gauthier-gallery.com/blueologies/</a></p>
 <p>FOR IMMEDIATE RELEASE</p>
@@ -43,7 +26,3 @@ Hannes Wallace, New York</p>
 <p>Co-curated by Kaitlyn A. Kramer</p>
 <p>Presented by Gauthier Gallery<br />
 <a href="www.gauthier-gallery.com">www.gauthier-gallery.com</a></p>
-<p>&nbsp;</p>
-<p>[background]<br />
-[background_image]http://thesunview.org/wp-content/uploads/2014/01/Screenshot_2014-01-25-22-51-04-1.png[/background_image]<br />
-[/background]</p>

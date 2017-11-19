@@ -1,28 +1,11 @@
 ---
-layout: post
 title: JANTAR II
+main_image: /assets/images/jantar-ii.jpg
 date: 2014-02-19 11:14:16.000000000 -06:00
-type: post
+event_date: 2014-02-22 19:00:00.000000000 -06:00
 published: true
-status: publish
 categories:
 - Performances
-tags: []
-meta:
-  _edit_last: '1'
-  _thumbnail_id: '245'
-  event_date: '20140222'
-  _event_date: field_533db715d5a6a
-  time: ''
-  _time: field_533db72cd5a6b
-  subtitle: ''
-  _subtitle: field_5346ca80f11f4
-author:
-  login: gauthier.dylan@gmail.com
-  email: gauthier.dylan@gmail.com
-  display_name: gauthier.dylan@gmail.com
-  first_name: ''
-  last_name: ''
 ---
 <p>My friends,</p>
 <p>I may as well just go right ahead and say that there is a Jantar show this Saturday. The wheels are in motion. Nothing can stop it. Remember that movie with that creepy guy in front of that giant wall that probably goes on forever since you can't see the top of it or even the sides? And so when you go up to the guy he says, "Foolish mortal, you basically have to do this thing that is impossible to get by this wall, go forth and fail now!" This Jantar show is that style of inevitable. This means: go ahead and an cancel your plans for Saturday because I am inviting you. It doesn't even matter what you have/had/didn't have planned, you must come. Here are some helpful details:</p>
@@ -34,4 +17,4 @@ author:
 <p><strong>The Velvet Hermetic System</strong> is fully operable and will be ready for your viewing pleasures!<br />
 <em>Alenkiy tsvetochek</em> on the big screen!</p>
 <p>OH can you let me know if you're coming? Space is literally limited.</p>
-<p>[vimeo_video height="480" autoplay="yes"]https://vimeo.com/9031524[/vimeo_video]</p>
+<iframe src="https://player.vimeo.com/video/9031524" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

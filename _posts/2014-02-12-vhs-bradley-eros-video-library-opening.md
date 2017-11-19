@@ -1,30 +1,13 @@
 ---
-layout: post
 title: 'VHS: Bradley Eros Video Library Opening'
+main_image: /assets/images/Eros-Screen-VHS-5_-682x1024.jpg
 date: 2014-02-12 17:59:23.000000000 -06:00
-type: post
+event_date: 2014-02-15 19:00:00.000000000 -06:00
 published: true
-status: publish
 categories:
 - Exhibitions
 - Performances
 - Screenings
-tags: []
-meta:
-  _edit_last: '1'
-  _thumbnail_id: '230'
-  event_date: '20140215'
-  _event_date: field_533db715d5a6a
-  time: ''
-  _time: field_533db72cd5a6b
-  subtitle: ''
-  _subtitle: field_5346ca80f11f4
-author:
-  login: gauthier.dylan@gmail.com
-  email: gauthier.dylan@gmail.com
-  display_name: gauthier.dylan@gmail.com
-  first_name: ''
-  last_name: ''
 ---
 <p><strong>Bradley Eros' personal video library and archive, now housed at the Sunview Luncheonette as a project of et al. </strong><br />
 <strong>Opening:</strong> Saturday, February 15, 7pm – after midnight</p>

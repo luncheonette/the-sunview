@@ -1,28 +1,14 @@
 ---
 layout: post
 title: Vacant Acres Dinner
+main_image: /assets/images/596-Acres-Vacant-Public-Land-300x400.jpg
 date: 2014-03-31 13:13:22.000000000 -05:00
+event_date: 2014-04-22 19:00:00.000000000 -05:00
 type: post
 published: true
 status: publish
 categories:
 - Presentations
-tags: []
-meta:
-  _edit_last: '1'
-  _thumbnail_id: '332'
-  event_date: '20140422'
-  _event_date: field_533db715d5a6a
-  time: ''
-  _time: field_533db72cd5a6b
-  subtitle: ''
-  _subtitle: field_5346ca80f11f4
-author:
-  login: gauthier.dylan@gmail.com
-  email: gauthier.dylan@gmail.com
-  display_name: gauthier.dylan@gmail.com
-  first_name: ''
-  last_name: ''
 ---
 <p><a href="http://596acres.org/news/2014/03/01/vacant-acres-symposium-advocates-from-all-over-the-world/">Vacant Acres Symposium</a> participants and friends are invited to join us for a delicious cozy meal at The Sunview Luncheonette in Greenpoint, Brooklyn following the first day of conference events. Please reserve your plate now as the space and the chef are limited and we'd love to know who's coming! We'll make sure that a group excursion from the New School is coordinated.</p>
 <p>Tuesday, April 22 at 7pm, in Greenpoint, Brooklyn.</p>

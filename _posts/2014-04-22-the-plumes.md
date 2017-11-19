@@ -1,28 +1,11 @@
 ---
-layout: post
 title: of GREENPOINT PLUME/S
+main_image: /assets/images/Elkins.png
 date: 2014-04-22 15:21:04.000000000 -05:00
-type: post
+event_date: 2014-04-30 19:00:00.000000000 -05:00
 published: true
-status: publish
 categories:
 - Presentations
-tags: []
-meta:
-  _edit_last: '1'
-  event_date: '20140430'
-  _event_date: field_533db715d5a6a
-  time: 7 PM
-  _time: field_533db72cd5a6b
-  subtitle: ''
-  _subtitle: field_5346ca80f11f4
-  _thumbnail_id: '385'
-author:
-  login: gauthier.dylan@gmail.com
-  email: gauthier.dylan@gmail.com
-  display_name: gauthier.dylan@gmail.com
-  first_name: ''
-  last_name: ''
 ---
 <p>You've probably heard about "the plume" — the gigantic oil spill that lies under Greenpoint. But did you know there are other plumes of toxic chemicals pooled up beneath the ground here as well? Residues of recent industry and long-lost trades that now threaten our well-being, bubbling to the surface and in some cases entering into people's homes.</p>
 <p>Where did they come from? Where are they going? Can we live beside/on top of them? How are we as residents affected? New York State is beginning to clean up the mess, but what exactly are they doing and how are they going about it?</p>
@@ -36,6 +19,13 @@ author:
 <p>** Cover image by T. Willis Elkins, 2014.</p>
 <p>&nbsp;</p>
 <p>----</p>
-<p>Mike Schade's powerpoint --&gt; <a href="http://thesunview.org/wp-content/uploads/2014/04/MikeSchade-MeekerAvenuePlumes.pdf">MikeSchade-MeekerAvenuePlumes</a></p>
+<p>Mike Schade's powerpoint --&gt; <a href="{{ site.baseurl }}/assets/MikeSchade-MeekerAvenuePlumes.pdf">MikeSchade-MeekerAvenuePlumes</a></p>
 <p>Images from the talk --&gt;</p>
-<p><a href="http://thesunview.org/wp-content/uploads/2014/04/P1030449.jpg"><img class="alignnone size-large wp-image-451" src="{{ site.baseurl }}/assets/P1030449-1024x575.jpg" alt="P1030449" width="640" height="359" /></a> <a href="http://thesunview.org/wp-content/uploads/2014/04/P1030444.jpg"><img class="alignnone size-large wp-image-450" src="{{ site.baseurl }}/assets/P1030444-1024x575.jpg" alt="P1030444" width="640" height="359" /></a> <a href="http://thesunview.org/wp-content/uploads/2014/04/P1030442.jpg"><img class="alignnone size-large wp-image-449" src="{{ site.baseurl }}/assets/P1030442-1024x575.jpg" alt="P1030442" width="640" height="359" /></a> <a href="http://thesunview.org/wp-content/uploads/2014/04/P1030432.jpg"><img class="alignnone size-large wp-image-448" src="{{ site.baseurl }}/assets/P1030432-1024x575.jpg" alt="P1030432" width="640" height="359" /></a> <a href="http://thesunview.org/wp-content/uploads/2014/04/P1030427.jpg"><img class="alignnone size-large wp-image-447" src="{{ site.baseurl }}/assets/P1030427-1024x575.jpg" alt="P1030427" width="640" height="359" /></a> <a href="http://thesunview.org/wp-content/uploads/2014/04/P1030422.jpg"><img class="alignnone size-large wp-image-446" src="{{ site.baseurl }}/assets/P1030422-1024x575.jpg" alt="P1030422" width="640" height="359" /></a></p>
+<p>
+  <img src="{{ site.baseurl }}/assets/images/P1030449.jpg" alt="P1030449" width="640" height="359" />
+  <img src="{{ site.baseurl }}/assets/images/P1030444.jpg" alt="P1030444" width="640" height="359" />
+  <img src="{{ site.baseurl }}/assets/images/P1030442.jpg" alt="P1030442" width="640" height="359" />
+  <img src="{{ site.baseurl }}/assets/images/P1030432.jpg" alt="P1030432" width="640" height="359" />
+  <img src="{{ site.baseurl }}/assets/images/P1030427.jpg" alt="P1030427" width="640" height="359" />
+  <img src="{{ site.baseurl }}/assets/images/P1030422.jpg" alt="P1030422" width="640" height="359" />
+</p>
