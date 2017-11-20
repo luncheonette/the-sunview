@@ -3,13 +3,6 @@ layout: page
 ---
 
 <section class="post-content">
-  <p class="date-info">
-  {% if page.event_date %}
-    {{ page.event_date | date: "%A %B %-d, %Y @ %l:%M %P" }}
-  {% else %}
-    {{ page.date | date: "%A %B %-d, %Y" }}
-  {% endif %}
-  </p>
   {{ page.content }}
 </section>
 

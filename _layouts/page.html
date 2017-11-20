@@ -9,6 +9,10 @@ layout: base
   {% endif %}
 </header>
 
+{% if page.event_date %}
+  <p class="date-info">{{ page.event_date | date: "%A %B %-d, %Y @ %l:%M %P" }}</p>
+{% endif %}
+
 {% if page.image %}
   <img class="main-image" src="{{ site.baseurl }}{{ page.image }}">
 {% elsif page.main_image %}
