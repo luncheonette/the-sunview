@@ -6,7 +6,10 @@ layout: page
   {{ page.content }}
 </section>
 
-{% if page.categories %}
+{% assign categories = page.categories %}
+{% assign tags = page.tags %}
+
+{% if categories.size > 0 %}
   <section class="categories">
     <ul>
       {% assign categories = page.categories %}
@@ -17,7 +20,7 @@ layout: page
   </section>
 {% endif %}
 
-{% if page.tags %}
+{% if tags.size > 0 %}
   <section class="tags">
     <ul>
       {% assign tags = page.tags %}

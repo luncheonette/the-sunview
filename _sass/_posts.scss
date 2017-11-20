@@ -1,0 +1,20 @@
+.date-info {
+  font-style: italic;
+  margin: 20px 0;
+}
+
+.categories,
+.tags {
+  margin-top: 40px;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+
+  li {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+}
