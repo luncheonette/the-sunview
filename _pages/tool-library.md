@@ -1,6 +1,6 @@
 ---
 title: Henry St. Tool Library and Exchange
-image: tool-library.jpg
+main_image: /assets/images/tool-library.jpg
 ---
 
 The **Sunview** presents an alternative model of community space in the face of
