@@ -10,9 +10,9 @@ layout: base
 </header>
 
 {% if page.image %}
-  <img src="{{ site.baseurl }}{{ page.image }}">
+  <img class="main-image" src="{{ site.baseurl }}{{ page.image }}">
 {% elsif page.main_image %}
-  <img src="{{ site.baseurl }}{{ page.main_image }}">
+  <img class="main-image" src="{{ site.baseurl }}{{ page.main_image }}">
 {% endif %}
 
 {{ content }}

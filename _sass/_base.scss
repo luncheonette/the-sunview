@@ -1,5 +1,6 @@
 p {
   font-size: $font-size-large;
+  margin: 0 0 ($line-height-computed);
 }
 
 img {
@@ -14,4 +15,8 @@ img {
     padding-top: 60px;
     padding-bottom: 60px;
   }
+}
+
+.main-image {
+  margin: 25px 0;
 }
