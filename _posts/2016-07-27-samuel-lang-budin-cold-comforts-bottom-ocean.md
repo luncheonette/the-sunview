@@ -1,5 +1,6 @@
 ---
 title: 'Samuel Lang Budin: Cold Comforts at the Bottom of the Ocean'
+main_image: /assets/images/Budin_AveryMFA2016_CC_10.jpg
 date: 2016-07-27 10:41:03.000000000 -05:00
 event_date: 2016-07-27T19:00:00-04:00
 published: true
