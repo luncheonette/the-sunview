@@ -28,16 +28,16 @@ posts also use the following front matter variables:
 | Variable | Usage |
 | -------- | ----- |
 | `subtitle` | Appears underneath post title on post pages, if included. |
-| `image` | Main "cover" image used for posts. This is used for a post "preview" on the homepage. The images path is already configured, so only the filename is needed here ("slscr-6.jpg") |
-| `date_info` | Used for more descriptive event date/time information (e.g. "food at 7, performance at 8") which appears on all posts. If this is not provided, the date/time will be inferred from the filename. |
+| `main_image` | Main "cover" image used for posts. This is used for a post "preview" on the homepage. The images path is already configured, so only the filename is needed here ("slscr-6.jpg") |
+| `event_date` | Date the event is happening |
 | `homepage_position` | Number included here determines where the post will appear in the homepage grid |
 
 None of these variables are required.
 
-#### Tags
+#### Categories
 
-The only tag that has any special meaning at this point is **SLSCR**. All posts tagged
-with `slscr` will appear on the SLSCR page (`/slscr`).
+The only category that has any special meaning at this point is **SLSCR**. All posts tagged
+with `SLSCR` will appear on the SLSCR page (`/slscr`).
 
 ### Pages
 
@@ -53,7 +53,7 @@ Pages use the following front matter variables:
 | Variable | Usage |
 | -------- | ----- |
 | `subtitle` | Appears underneath page title if included. |
-| `image` | Main "cover" image used for the page. Appears on pages and for the page "preview" on the homepage. Only the filename is needed ("607-csa.jpg") |
+| `main_image` | Main "cover" image used for the page. Appears on pages and for the page "preview" on the homepage. Only the filename is needed ("607-csa.jpg") |
 | `homepage_position` | Number determines where the page preview will appear in the homepage grid |
 
 ### Images
