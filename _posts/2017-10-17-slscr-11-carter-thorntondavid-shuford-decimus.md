@@ -3,6 +3,7 @@ title: 'SLSCR 11: Carter Thornton/David Shuford / Decimus'
 main_image: /assets/images/lathe-front-intervet-transparancy2.jpg
 date: 2017-10-17 10:51:24.000000000 -05:00
 event_date: 2017-10-21T19:00:00-04:00
+homepage_position: 3
 published: true
 categories:
 - Music

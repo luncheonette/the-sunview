@@ -28,14 +28,14 @@ layout: base
         {% endif %}
       {% else %}
         <a class="post-preview-link" href="{{ site.baseurl }}{{ post.url }}">
-          {% if post.image %}
-            <img src="{{ site.baseurl }}/assets/images/{{ post.image }}">
+          {% if post.main_image %}
+            <img src="{{ site.baseurl }}{{ post.main_image }}">
           {% endif %}
           <h3>{{ post.title }}</h3>
           {% if post.collection == "pages" %}
             {{ post.excerpt }}
           {% else %}
-            <p>{{ post.date | date: "%A %B %-d, %Y" }}</p>
+            <p>{{ post.event_date | date: "%A %B %-d, %Y" }}</p>
           {% endif %}
           <span>Keep reading &#187;</span>
         </a>
