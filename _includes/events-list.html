@@ -1,10 +1,11 @@
 <ul class="events-list">
-{% for post in site.posts %}
-  <li class="event" data-date="{{ post.date }}">
-    <a href="{{ site.baseurl }}{{ post.url }}">
+{% assign events = site.posts | sort: 'event_date' | reverse %}
+{% for event in events %}
+  <li class="event" data-date="{{ event.event_date }}">
+    <a href="{{ site.baseurl }}{{ event.url }}">
       <div>
-        <span class="title">{{ post.title }}</span>
-        <span>{{ post.event_date | date: "%A %B %-d, %Y" }}</span>
+        <span class="title">{{ event.title }}</span>
+        <span>{{ event.event_date | date: "%A %B %-d, %Y" }}</span>
       </div>
       <span class="arrow">&raquo;</span>
     </a>
