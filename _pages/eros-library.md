@@ -1,6 +1,6 @@
 ---
 title: The Bradley Eros VHS archive
-main_image: /assets/images/eros-archive.jpg
+main_image: /assets/images/eros-archive.png
 ---
 
 The Bradley Eros VHS archive (or the Velvet Hermetic System) is a collection of over 600 VHS tapes collected by Mr. Eros, a New York City experimental filmmaker. The archive is currently on long-term loan to the Sunview, a project space in Brooklyn. Most of the titles in the collection are from an underground culture of the 1980’s and 1990’s. While some tapes were obtained from various movie distribution houses, others are dubs and bootlegs. 
