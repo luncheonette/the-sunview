@@ -1,6 +1,5 @@
 ---
 title: Sunita Prasad: Tender Comrades
-main_image: /assets/images/tender-comrades.jpg
 date: 2013-11-22 18:31:47.000000000 -06:00
 event_date: 2013-11-22T20:00:00-04:00
 published: true
