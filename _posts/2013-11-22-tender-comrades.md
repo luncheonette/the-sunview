@@ -14,3 +14,8 @@ Tuesday November 19th<br />
 7:30 PM<br />
 The Sunview Luncheonette</p>
 <p>Please RSVP. It will help with stew-prep.</p>
+
+Bio:
+<a href="https://www.sunitaprasad.net/">Sunita Prasad</a> is a New York City-based artist. Her projects employ methods of visual translation such as drag, re-enactment, movement, and touch to shift or rupture expectations about how gendered bodies should behave, be represented, or be historicized. Her works have been shown in galleries, festivals, and performance venues internationally, including the Palais de Tokyo in Paris; the Brooklyn Museum, Flux Factory and Momenta Art in New York City; and Homesession in Barcelona. Sunita is originally from Syracuse NY and received a BFA in Film & TV from New York University and an MFA in Photography from the Rhode Island School of Design.
+
+
