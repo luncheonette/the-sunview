@@ -9,34 +9,5 @@
 
 <body>
   <script src="https://unpkg.com/netlify-cms@^0.7.0/dist/cms.js"></script>
-  <script>
-    var CategoriesControl = createClass({
-      handleChange: function(e) {
-        this.props.onChange(e.target.value);
-      },
-
-      render: function() {
-        return h('input', {
-          type: 'text',
-          value: this.props.value,
-          onChange: this.handleChange
-        });
-      }
-    });
-
-    var CategoriesPreview = createClass({
-      render: function() {
-        var categories = this.props.value;
-        categories = categories ? categories.split(" ") : [];
-        return h('ul', {},
-          categories.map(function(category, index) {
-            return h('li', { key: index }, category);
-          })
-        );
-      }
-    });
-
-    CMS.registerWidget('categories', CategoriesControl, CategoriesPreview);
-  </script>
 </body>
 </html>
