@@ -5,7 +5,11 @@ date: 2017-10-17 10:51:24.000000000 -05:00
 event_date: 2017-10-21T19:00:00-04:00
 homepage_position: 3
 published: true
-categories: Music Records SLSCR Sound
+categories:
+- Music
+- Records
+- SLSCR
+- Sound
 ---
 
 <p>Saturday, October 21, 7:00pm: SLSCR 11</p>

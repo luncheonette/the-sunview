@@ -19,8 +19,8 @@ collections:
       - {label: "Event Date", name: "event_date", required: false, widget: "datetime"}
       - {label: "Main Image", name: "main_image", required: false, widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Categories", name: "categories", required: false, widget: "categories"}
-      - {label: "Tags", name: "tags", required: false, widget: "categories"}
+      - {label: "Categories", name: "categories", required: false, widget: "list"}
+      - {label: "Tags", name: "tags", required: false, widget: "list"}
       - {label: "Homepage Position", name: "homepage_position", required: false, widget: "number"}
   - name: "page"
     label: "Page"
