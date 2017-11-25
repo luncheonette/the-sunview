@@ -13,10 +13,16 @@ layout: base
   <p class="date-info">{{ page.event_date | date: "%A %B %-d, %Y @ %l:%M %P" }}</p>
 {% endif %}
 
-{% if page.image %}
-  <img class="main-image" src="{{ site.baseurl }}{{ page.image }}">
-{% elsif page.main_image %}
-  <img class="main-image" src="{{ site.baseurl }}{{ page.main_image }}">
+{% if page.main_image %}
+  <div class="main-image">
+    <img src="{{ site.baseurl }}{{ page.main_image }}">
+    {% if page.image_caption %}
+      <div class="image-caption">
+        Image:
+        {{ page.image_caption | markdownify | remove: '<p>' | remove: '</p>' }}
+      </div>
+    {% endif %}
+  </div>
 {% endif %}
 
 {{ content }}

@@ -18,6 +18,10 @@ img {
 }
 
 .main-image {
-  display: block;
   margin: 25px 0;
+}
+
+.image-caption {
+  font-size: $font-size-small;
+  margin-top: 5px;
 }
