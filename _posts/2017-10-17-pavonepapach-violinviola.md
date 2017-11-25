@@ -1,12 +1,12 @@
 ---
 title: Pavone/Papach; Violin/Viola
+event_date: 2017-10-21T00:00:00.000Z
 main_image: /assets/images/eclisse-1-700x379.jpg
-date: 2017-10-17 11:21:08.000000000 -05:00
-event_date: 2017-10-20T20:00:00-04:00
-published: true
 categories:
-- Club Night
-- Music
+  - Club Night
+  - Music
+ffs:
+  - {}
 ---
 
 <p>Please keep in mind for Friday night. Two solo acoustic viola / violin sets.</p>
