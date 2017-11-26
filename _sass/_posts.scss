@@ -18,3 +18,12 @@
     margin-right: 10px;
   }
 }
+
+.post-content {
+  p {
+    @media (max-width: $screen-sm-min) {
+      font-size: 16px;
+    }
+    font-size: 20px;
+  }
+}

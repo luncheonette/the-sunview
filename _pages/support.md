@@ -2,7 +2,7 @@
 title: Support
 ---
 
-### Support
+### Donate to the Sunview Luncheonette
 Help support the Sunview Luncheonette through a one-time donation of any amount.
 The Sunview is not-for-profit and all donations will go toward maintaining the
 building and supporting our programs. We are fiscally sponsored by Brooklyn

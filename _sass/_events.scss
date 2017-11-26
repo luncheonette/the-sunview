@@ -36,13 +36,20 @@
   }
 }
 
+.events.homepage {
+  .events-list {
+    margin-top: 0px;
+  }
+}
+
 .events-list {
   list-style: none;
   padding: 0;
+  margin-top: 60px;
 
   .event {
-    margin: 20px 0;
-
+    margin: 30px 0 30px 0;
+    font-size: 16px;
     &.past {
       a { color: #a6a6a6; }
     }
