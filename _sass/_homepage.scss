@@ -9,7 +9,7 @@
 .featured-posts {
   .post-preview {
     text-align: center;
-    margin: 80px 0;
+    margin: 40px 0;
 
     .post-preview-link {
       color: $text-color;
@@ -21,16 +21,19 @@
     }
 
     h3 {
+      font-size: 22px;
+
       &:after {
         content: "\2014";
         font-size: 10px;
         display: block;
-        margin: 20px 0;
+        margin: 10px 0;
       }
     }
 
     p {
       font-size: $font-size-base;
+      margin-bottom: 10px;
     }
 
     span {
@@ -38,7 +41,7 @@
     }
 
     img {
-      max-width: 50%;
+      max-width: 75%;
     }
 
     .image-caption {
