@@ -3,6 +3,7 @@ title: 'Storyfile #2 Party and Launch'
 main_image: /assets/images/storyfile2-378x500.jpg
 date: 2017-03-31 16:53:58.000000000 -05:00
 event_date: 2017-03-31T19:00:00-04:00
+homepage_position: 18
 published: true
 categories:
 - Sunview

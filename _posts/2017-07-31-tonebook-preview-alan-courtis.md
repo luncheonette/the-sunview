@@ -4,6 +4,7 @@ main_image: /assets/images/tonebook.jpg
 subtitle: Inpatient Press
 date: 2017-07-31 17:24:33.000000000 -05:00
 event_date: 2017-07-31T20:00:00-04:00
+homepage_position: 7
 published: true
 categories:
 - Readings

@@ -4,6 +4,7 @@ main_image: /assets/images/carter-tropical-rock-jantar-flyer.jpg
 date: 2017-04-26 12:54:19.000000000 -05:00
 event_date: 2017-04-26T19:00:00-04:00
 published: true
+homepage_position: 13
 categories:
 - Music
 - Performances

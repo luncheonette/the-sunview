@@ -1,4 +1,4 @@
 ---
 image: book.png
-homepage_position: 6
+homepage_position: 8
 ---
