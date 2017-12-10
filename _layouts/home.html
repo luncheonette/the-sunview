@@ -51,7 +51,13 @@ layout: base
     {% include events-intro.html %}
   </header>
 
-  {% include events-list.html %}
+  {% assign events = site.posts | sort: 'event_date' | reverse %}
+  <ul class="events-list">
+  {% for event in events limit: 20 %}
+    {% include events-list-item.html %}
+  {% endfor %}
+  </ul>
+
   <p id="events-placeholder" class="events-placeholder hidden">
     Nothing coming up right now.
     <a href="{{ site.baseurl }}/events">Things that have happened recently.</a>

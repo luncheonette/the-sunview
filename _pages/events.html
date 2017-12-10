@@ -7,7 +7,14 @@ title: Events
 
 <section class="events">
   {% include events-intro.html %}
-  {% include events-list.html %}
+  {% assign events = site.posts | sort: 'event_date' | reverse %}
+
+  <ul class="events-list">
+  {% for event in events %}
+    {% include events-list-item.html %}
+  {% endfor %}
+  </ul>
+
 </section>
 
 <script>Sunview.Events.stylePastEvents();</script>
