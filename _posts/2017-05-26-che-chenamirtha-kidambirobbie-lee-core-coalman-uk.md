@@ -6,7 +6,6 @@ event_date: 2017-05-25T19:00:00-04:00
 published: true
 categories:
 - Records
-- SLSCR
 - Sound
 ---
 
