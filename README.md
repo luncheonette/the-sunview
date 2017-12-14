@@ -98,9 +98,11 @@ To use the CMS:
 ## Local Development
 
 1. `git clone git@github.com:luncheonette/the-sunview.git`
-2. `bundle install`
-3. `bundle exec jekyll serve`
-4. Point your browser to `localhost:3000`
+2. `bundle install` to install all the gems
+3. `yarn install` to install js dependencies
+4. `bundle exec jekyll serve` to run Jekyll locally
+5. `yarn start` to run Jekyll *and* make webpack watch for changes to js files
+6. Point your browser to `localhost:3000`
 
 ## Resources
 
