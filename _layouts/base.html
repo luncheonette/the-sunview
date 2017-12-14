@@ -32,17 +32,7 @@
       {{ content }}
 
     </div>
-    <script>
-      window.onload = function() {
-        var menu = document.getElementById('menu');
-        document.body.addEventListener('click', function(e) {
-          if (e.target.id === 'menu-toggle') {
-            menu.classList.toggle('hidden');
-          } else if (e.target.id !== 'menu') {
-            menu.classList.add('hidden');
-          }
-        });
-      }
-    </script>
+
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/bundle.js" charset="utf-8"></script>
   </body>
 </html>

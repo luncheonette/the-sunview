@@ -52,7 +52,7 @@ layout: base
   </header>
 
   {% assign events = site.posts | sort: 'event_date' | reverse %}
-  <ul class="events-list">
+  <ul id="upcoming-events" class="events-list">
   {% for event in events limit: 20 %}
     {% include events-list-item.html %}
   {% endfor %}
@@ -68,5 +68,3 @@ layout: base
   <p>For general, occasional updates:</p>
   {% include email-signup.html %}
 </section>
-
-<script>Sunview.Events.hidePastEvents();</script>
