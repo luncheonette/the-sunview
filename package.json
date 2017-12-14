@@ -1,0 +1,17 @@
+{
+  "name": "the-sunview",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:luncheonette/the-sunview.git",
+  "author": "Kirsten Nordine <kirstennordine@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "moment": "^2.19.4"
+  }
+}
