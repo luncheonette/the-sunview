@@ -1,5 +1,6 @@
 ---
 image: newtown-creek.png
-image_description: Just another day on the Newtown Creek...
+caption: Newtown Creek is looking more and more like the Zone in Stalker.
 homepage_position: 2
 ---
+
