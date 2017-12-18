@@ -1,3 +1,8 @@
+@font-face {
+ font-family: "arial-black";
+ src: url("assets/arial-black.woff") format("woff");
+}
+
 // Bootstrap Colors
 $brand-primary: #FF0000;
 
@@ -9,7 +14,7 @@ $headings-color: $text-color;
 // Bootstrap Typography
 $font-family-serif:    "Times New Roman", Times, serif;
 $font-family-base:     $font-family-serif;
-$headings-font-family: "Arial Black", Helvetica, Arial, sans-serif;
+$headings-font-family: "arial-black", "Arial Black", Helvetica, Arial, sans-serif;
 $headings-font-weight: bold;
 
 // Forms
