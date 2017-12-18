@@ -1,15 +1,13 @@
 ---
-title: 'SLSCR 11: Carter Thornton/David Shuford / Decimus'
+title: 'SLSCR 11: Carter Thornton/David Shuford/Decimus'
+event_date: 2017-10-21T23:00:00.000Z
 main_image: /assets/images/lathe-front-intervet-transparancy2.jpg
-date: 2017-10-17 10:51:24.000000000 -05:00
-event_date: 2017-10-21T19:00:00-04:00
-homepage_position: 4
-published: true
 categories:
-- Music
-- Records
-- SLSCR
-- Sound
+  - Music
+  - Records
+  - SLSCR
+  - Sound
+homepage_position: 4
 ---
 
 <p>Saturday, October 21, 7:00pm: SLSCR 11</p>
