@@ -1,13 +1,13 @@
 ---
 title: We Need to talk about Jane
 subtitle: A Screening
-event_date: 'Friday December 15, 2017 @ 7:44 pm'
+event_date: 2017-12-15T19:44:00-04:00
 main_image: /assets/images/jane_eyre_1934.jpg
 categories:
   - film screening
 tags:
   - jane eyre
-homepage_position: '1'
+homepage_position: 1
 ---
 Hello. This Friday please join Shelby and Chad for:
 

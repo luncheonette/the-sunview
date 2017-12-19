@@ -1,6 +1,6 @@
 ---
 title: Zachary Cale and Johnny Young
-event_date: 'Thursday July 13, 2017 @ 7:00 pm'
+event_date: 2017-07-13T19:00:00-04:00
 main_image: /assets/images/cale-young-jantar.jpg
 categories:
   - Music
