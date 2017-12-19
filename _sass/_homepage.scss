@@ -21,10 +21,12 @@
     }
 
     h3 {
-      font-size: 22px;
+      font-size: 14px;
+      padding-left: 50px;
+      padding-right: 50px;
 
       &:after {
-        content: "\2014";
+        content: "";
         font-size: 10px;
         display: block;
         margin: 10px 0;
