@@ -4,7 +4,6 @@ main_image: /assets/images/costa-rg-bertucci.jpg
 date: 2017-08-22 11:23:49.000000000 -05:00
 event_date: 2017-09-16T19:00:00-04:00
 published: true
-homepage_position: 1
 categories:
 - Performances
 - Sunview
