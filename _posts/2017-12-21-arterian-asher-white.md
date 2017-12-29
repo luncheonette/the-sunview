@@ -1,7 +1,7 @@
 ---
 title: Arterian/Asher/White
 subtitle: '6pm doors, 7pm reading'
-event_date: 'Saturday January 6, 2018 @ 6:00 pm'
+event_date: 2018-01-06T18:00:00-04:00
 main_image: /assets/images/arterian_asher_white_sv.png
 categories:
   - readings
@@ -14,7 +14,7 @@ tags:
   - ugly ducking presse
   - udp
   - 1913 press
-homepage_position: '1'
+homepage_position: 1
 ---
 
 

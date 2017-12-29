@@ -1,7 +1,7 @@
 ---
 title: FORGIVESGIVING 2017
 subtitle: New Work to Heal Old Pain..
-event_date: 'Wednesday December 20, 2017 @ 4:49 pm'
+event_date: 2017-12-20T16:49:00-04:00
 main_image: /assets/images/forgivesgiving.gif
 categories:
   - dinner
@@ -11,7 +11,7 @@ tags:
   - chelsea manning
   - tourism
   - thanksgiving
-homepage_position: '1'
+homepage_position: 1
 ---
 This post-TG Saturday come get some real love, after being thoroughly bummed out and confused by your Trump-loving fam! St. John, Tim, and Jess (Sintimjess) are gonna have another dope show at The Sunview Luncheonette in Greenpoint, but this time we're stepping up the game -- no showing old work. Fuck that. For you to really heal you need the most piping-hot, oven-stinking, face-hugging ... NEW WORKS! 
 
