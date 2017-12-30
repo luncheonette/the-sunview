@@ -1,7 +1,7 @@
 ---
-title: Arterian/Asher/White
+title: 'A Reading by Diana Arterian, E.G. Asher, Simone White'
 subtitle: '6pm doors, 7pm reading'
-event_date: 2018-01-06T18:00:00-04:00
+event_date: 2018-01-06T22:00:00.000Z
 main_image: /assets/images/arterian_asher_white_sv.png
 categories:
   - readings
