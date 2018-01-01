@@ -1,6 +1,6 @@
 ---
 title: Las Chicas Presents
-event_date: 2017-01-04T19:00:00-04:00
+event_date: 2018-01-04T19:00:00-04:00
 main_image: /assets/images/zoom-cameras.jpg
 categories:
   - screenings
