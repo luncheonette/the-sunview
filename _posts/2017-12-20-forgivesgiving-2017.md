@@ -11,7 +11,6 @@ tags:
   - chelsea manning
   - tourism
   - thanksgiving
-homepage_position: 1
 ---
 This post-TG Saturday come get some real love, after being thoroughly bummed out and confused by your Trump-loving fam! St. John, Tim, and Jess (Sintimjess) are gonna have another dope show at The Sunview Luncheonette in Greenpoint, but this time we're stepping up the game -- no showing old work. Fuck that. For you to really heal you need the most piping-hot, oven-stinking, face-hugging ... NEW WORKS! 
 

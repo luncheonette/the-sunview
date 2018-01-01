@@ -19,7 +19,6 @@ tags:
   - Saki Sato
   - Hiroshi Sunairi
   - and Sam Whit
-homepage_position: 2
 ---
 Las Chicas Presents
 

@@ -7,7 +7,6 @@ categories:
   - film screening
 tags:
   - jane eyre
-homepage_position: 1
 ---
 Hello. This Friday please join Shelby and Chad for:
 

@@ -4,7 +4,6 @@ subtitle: "(PARMER)"
 main_image: /assets/images/BarrisonSisters-585x500.jpg
 date: 2017-05-14 17:12:52.000000000 -05:00
 event_date: 2017-05-14T12:00:00-04:00
-homepage_position: 15
 published: true
 categories:
 - Parmer at Sunview

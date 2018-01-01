@@ -13,7 +13,6 @@ tags:
   - History
   - Memory
   - Cities
-homepage_position: 6
 ---
 Jeremiah Moss of "Vanishing New York" shares stories of the loss of important cultural spaces in NYC excerpted from his recently published book. 2-3:30 pm. Pirogis and hot coffee.
 

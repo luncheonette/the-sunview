@@ -3,7 +3,6 @@ title: Darks of Heartness
 main_image: /assets/images/darks-of-Heartness2.jpg
 date: 2017-04-20 17:45:56.000000000 -05:00
 event_date: 2017-04-20T20:00:00-04:00
-homepage_position: 17
 published: true
 categories:
 - Screenings
