@@ -2,22 +2,19 @@ import moment from 'moment';
 
 export const stylePastEvents = (idSelector) => {
   if (document.getElementById(idSelector)) {
-    findPastEvents('event');
-  }
-}
+    const eventsList = document.getElementById(idSelector).children;
 
-const findPastEvents = (className = 'event') => {
-  const eventsList = document.getElementsByClassName(className);
-
-  for(let i = 0; i < eventsList.length; i++) {
-    const eventEl = eventsList[i];
-    const eventDate = eventEl.dataset.date;
-    const eventClass = hasPassed(eventDate) ? "past" : "upcoming";
-    eventEl.classList.add(eventClass);
+    for(let i = 0; i < eventsList.length; i++) {
+      const eventEl = eventsList[i];
+      const { date } = eventEl.dataset;
+      const eventClass = hasPassed(date) ? "past" : "upcoming";
+      eventEl.classList.add(eventClass);
+    }
   }
 }
 
 const hasPassed = (eventDate) => {
+  if (!eventDate) { return false; }
   const now = moment();
   const date = moment(eventDate, TIME_FORMAT);
 

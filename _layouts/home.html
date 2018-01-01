@@ -16,9 +16,9 @@ layout: base
 <section>
   {% assign home_content = site.posts | sort: 'event_date' | reverse %}
 
-  <ul class="featured-posts posts-grid content-grid">
+  <ul class="featured-posts posts-grid content-grid" id="all-events">
   {% for post in home_content limit: 15 %}
-    <li class="post-preview grid-item">
+    <li class="post-preview grid-item" data-date="{{ post.event_date }}">
       <a class="post-preview-link" href="{{ site.baseurl }}{{ post.url }}">
         {% if post.main_image %}
           <img src="{{ site.baseurl }}{{ post.main_image }}">

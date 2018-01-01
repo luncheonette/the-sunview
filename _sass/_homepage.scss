@@ -50,5 +50,9 @@
       margin-top: 15px;
       font-style: italic;
     }
+
+    &.past {
+      h3, p { display: none; }
+    }
   }
 }
