@@ -1,16 +1,5 @@
 import moment from 'moment';
 
-export const hidePastEvents = (idSelector) => {
-  if (document.getElementById(idSelector)) {
-    findPastEvents('event');
-    const upcoming = document.getElementsByClassName('upcoming');
-    if (upcoming.length === 0) {
-      document.getElementById('events-placeholder').classList.remove('hidden');
-      document.getElementById('events-intro').classList.add('hidden');
-    }
-  }
-}
-
 export const stylePastEvents = (idSelector) => {
   if (document.getElementById(idSelector)) {
     findPastEvents('event');

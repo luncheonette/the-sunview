@@ -6,12 +6,26 @@ title: Events
 <h2>What's Happening...</h2>
 
 <section class="events">
-  {% include events-intro.html %}
+  <p id="events-intro" class="events-intro">
+    The Luncheonette performs semi-public dinners, talks, work-shops,
+    lectures, plays, reading groups, and musical interludes in a semi-private
+    setting. All members are invited to attend. Non-members, please RSVP at
+    <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
+  </p>
+
   {% assign events = site.posts | sort: 'event_date' | reverse %}
 
   <ul id="all-events" class="events-list">
   {% for event in events %}
-    {% include events-list-item.html %}
+    <li class="event" data-date="{{ event.event_date }}">
+      <a href="{{ site.baseurl }}{{ event.url }}">
+        <div>
+          <span class="title">{{ event.title }}</span>
+          <span>{{ event.event_date | date: "%A %B %-d, %Y" }}</span>
+        </div>
+        <span class="arrow">&raquo;</span>
+      </a>
+    </li>
   {% endfor %}
   </ul>
 

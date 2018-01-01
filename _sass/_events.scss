@@ -1,44 +1,7 @@
 .events {
-  .events-header {
-    h2 {
-      font-family: $font-family-sans-serif;
-      font-weight: normal;
-      font-size: 24px;
-    }
-  }
-
-  .events-intro,
-  .events-placeholder {
+  .events-intro {
     font-size: 18px;
     font-style: italic;
-  }
-
-  &.homepage {
-    &:before {
-      content: "* * *";
-      display: block;
-      font-family: $font-family-sans-serif;
-      font-size: 30px;
-      margin-top: 100px;
-      text-align: center;
-    }
-
-    .events-header {
-      text-align: center;
-    }
-
-    .events-intro,
-    .events-placeholder {
-      margin: 30px auto;
-      max-width: 700px;
-      text-align: center;
-    }
-  }
-}
-
-.events.homepage {
-  .events-list {
-    margin-top: 0px;
   }
 }
 
@@ -75,11 +38,5 @@
   .arrow {
     font-family: $font-family-sans-serif;
     font-size: 36px;
-  }
-}
-
-.homepage {
-  .past {
-    display: none;
   }
 }

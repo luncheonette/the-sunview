@@ -31,25 +31,6 @@ layout: base
   </ul>
 </section>
 
-<section class="events homepage">
-  <header class="events-header">
-    <h2>What's happening...</h2>
-    {% include events-intro.html %}
-  </header>
-
-  {% assign events = site.posts | sort: 'event_date' | reverse %}
-  <ul id="upcoming-events" class="events-list">
-  {% for event in events limit: 20 %}
-    {% include events-list-item.html %}
-  {% endfor %}
-  </ul>
-
-  <p id="events-placeholder" class="events-placeholder hidden">
-    Nothing coming up right now.
-    <a href="{{ site.baseurl }}/events">Things that have happened recently.</a>
-  </p>
-</section>
-
 <section class="email-signup">
   <p>For general, occasional updates:</p>
   {% include email-signup.html %}
