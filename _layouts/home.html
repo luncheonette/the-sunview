@@ -15,9 +15,33 @@ layout: base
 
 <section>
   {% assign home_content = site.posts | sort: 'event_date' | reverse %}
+  {% assign pinned_counter = 0 %}
+  {% assign pinned_content = site.documents |
+    where_exp: "item", "item.homepage_position != nil" |
+    sort: "homepage_position" %}
 
   <ul class="featured-posts posts-grid content-grid" id="all-events">
-  {% for post in home_content limit: 15 %}
+  {% for post in home_content limit: 20 %}
+    {% assign pinned = pinned_content[pinned_counter] %}
+    {% if forloop.index == pinned.homepage_position %}
+      <li class="post-preview grid-item">
+        {% if pinned.collection == "images" %}
+          <img src="{{ site.baseurl }}/assets/images/{{ pinned.image }}">
+          {% if pinned.image_description %}
+            <p class="image-caption">{{ pinned.image_description }}</p>
+          {% endif %}
+        {% else %}
+          <a class="post-preview-link" href="{{ site.baseurl }}{{ pinned.url }}">
+            {% if pinned.main_image %}
+              <img src="{{ site.baseurl }}{{ pinned.main_image }}">
+            {% endif %}
+            <h3>{{ pinned.title }}</h3>
+          </a>
+        {% endif %}
+      </li>
+      {% assign pinned_counter = pinned_counter | plus: 1 %}
+    {% endif %}
+
     <li class="post-preview grid-item" data-date="{{ post.event_date }}">
       <a class="post-preview-link" href="{{ site.baseurl }}{{ post.url }}">
         {% if post.main_image %}
