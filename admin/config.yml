@@ -22,7 +22,6 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Categories", name: "categories", required: false, widget: "list"}
       - {label: "Tags", name: "tags", required: false, widget: "list"}
-      - {label: "Homepage Position", name: "homepage_position", required: false, widget: "number"}
   - name: "page"
     label: "Page"
     folder: "_pages"
@@ -34,6 +33,7 @@ collections:
       - {label: "Main Image", name: "main_image", required: false, widget: "image"}
       - {label: "Image Caption", name: "image_caption", required: false, widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Homepage Position", name: "homepage_position", required: false, widget: "number"}
   - name: "images"
     label: "Image"
     folder: "_images"
