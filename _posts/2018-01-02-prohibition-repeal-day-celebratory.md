@@ -1,6 +1,6 @@
 ---
 title: Prohibition Repeal Day Celebratory
-event_date: 2017-12-07T20:00:00-04:00
+event_date: 2017-12-07T19:01:00-05:00
 main_image: /assets/images/screen shot 2017-12-22 at 9.21.04 pm.png
 categories:
   - evenings
