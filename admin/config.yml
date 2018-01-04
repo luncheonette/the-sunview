@@ -16,7 +16,7 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Subtitle", name: "subtitle", required: false, widget: "string"}
-      - {label: "Event Date", name: "event_date", required: false, widget: "datetime", format: "dddd MMMM D, YYYY @ h:mm a"}
+      - {label: "Event Date", name: "event_date", required: false, widget: "datetime"}
       - {label: "Main Image", name: "main_image", required: false, widget: "image"}
       - {label: "Image Caption", name: "image_caption", required: false, widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
