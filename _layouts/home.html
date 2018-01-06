@@ -20,6 +20,34 @@ layout: base
     where_exp: "item", "item.homepage_position != nil" |
     sort: "homepage_position" %}
 
+  <script id="pinned-post-json">
+    [
+      {% for post in pinned_content %}
+        {
+          "title": "{{ post.title }}",
+          "url": "{{ site.baseurl }}{{ post.url }}",
+          "homepage_position": "{{ post.homepage_position }}",
+          "type": "{{ post.collection }}",
+          "image": "{% if post.image %}{{ site.baseurl }}/assets/images/{{ post.main_image }}{% elsif post.main_image %}{{ site.baseurl }}/assets/images/{{ post.main_image }}{% endif %}",
+          "image_description": "{% if post.image_description %}{{ post.image_description }}{% endif %}"
+        }{% if forloop.last == false %},{% endif %}
+      {% endfor %}
+    ]
+  </script>
+
+  <script id="event-post-json">
+    [
+      {% for post in home_content limit: 20 %}
+        {
+          "title": "{{ post.title }}",
+          "url": "{{ site.baseurl }}{{ post.url }}",
+          "image": "{{ site.baseurl }}/assets/images/{{ post.image }}",
+          "date": "{{ post.event_date }}"
+        }{% if forloop.last == false %},{% endif %}
+      {% endfor %}
+    ]
+  </script>
+
   <ul class="featured-posts posts-grid content-grid" id="all-events">
   {% for post in home_content limit: 20 %}
     {% assign pinned = pinned_content[pinned_counter] %}

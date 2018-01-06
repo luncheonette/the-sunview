@@ -13,7 +13,7 @@ export const stylePastEvents = (idSelector) => {
   }
 }
 
-const hasPassed = (eventDate) => {
+export const hasPassed = (eventDate) => {
   if (!eventDate) { return false; }
   const now = moment();
   const date = moment(eventDate, TIME_FORMAT);
