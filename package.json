@@ -11,16 +11,20 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "moment": "^2.20.0",
-    "webpack": "^3.10.0"
+    "webpack": "^3.10.0",
+    "webpack-merge": "^4.1.1"
   },
   "scripts": {
-    "start": "webpack --watch & bundle exec jekyll serve"
+    "start": "webpack --watch & bundle exec jekyll serve",
+    "build": "webpack --config webpack.prod.js && bundle exec jekyll build"
   },
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },
   "babel": {
-    "plugins": ["transform-react-jsx"]
+    "plugins": [
+      "transform-react-jsx"
+    ]
   }
 }
