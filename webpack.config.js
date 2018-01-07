@@ -1,3 +1,4 @@
+const webpack = require('webpack');
 const path = require('path');
 
 module.exports = {
@@ -6,16 +7,21 @@ module.exports = {
     path: path.resolve(__dirname, 'assets'),
     filename: "bundle.js",
   },
+  plugins: [
+    new webpack.DefinePlugin({
+      'process.env.NODE_ENV': JSON.stringify('development')
+    }),
+  ],
   module: {
-  loaders: [
-    {
-      test: /\.jsx?$/,
-      exclude: /(node_modules)/,
-      loader: "babel-loader",
-      query: {
-        presets: ["es2015"]
+    loaders: [
+      {
+        test: /\.jsx?$/,
+        exclude: /(node_modules)/,
+        loader: "babel-loader",
+        query: {
+          presets: ["es2015"]
+        }
       }
-    }
     ]
   }
 };

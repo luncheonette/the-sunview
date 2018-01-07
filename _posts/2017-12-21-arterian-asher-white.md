@@ -14,7 +14,6 @@ tags:
   - ugly ducking presse
   - udp
   - 1913 press
-homepage_position: 1
 ---
 
 _Readings of new writings by:_

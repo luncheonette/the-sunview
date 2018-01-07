@@ -5,7 +5,6 @@ date: 2017-12-18 11:35:24.000000000 -05:00
 event_date: 2017-11-10T19:30:00-04:00
 main_image: /assets/images/prelinger.jpg
 image_caption: Poster designed and printed by Joe Riley.
-homepage_position: 5
 ---
 I am writing to invite you to an evening and screening with Rick Prelinger at the Sunview Luncheonette in Greenpoint, Brooklyn. Audrey Snyder has organized the gathering alongside Dylan Gauthier and Joe Riley to welcome Rick and Megan Prelinger to New York and share a screening, refreshments, and stories. We would all love to see you next Friday, November 10 at 7:30p at 221 Nassau Ave, Brooklyn.
 

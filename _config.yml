@@ -4,7 +4,7 @@ title                    : "The Sunview"
 title_separator          : "-"
 name                     : "The Sunview, LLC."
 description              : "The Sunview Luncheonette"
-baseurl                  : "/the-sunview"
+baseurl                  : ""
 url                      : ""
 email                    : "hello@thesunview.org"
 timezone                 : America/New_York

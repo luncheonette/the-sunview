@@ -3,7 +3,6 @@ title: Benefit for the Brooklyn Community Bail Fund
 main_image: /assets/images/BCBF.jpg
 date: 2017-01-26 16:28:39.000000000 -06:00
 event_date: 2017-01-28T20:00:00-04:00
-homepage_position: 20
 published: true
 categories:
 - Sunview

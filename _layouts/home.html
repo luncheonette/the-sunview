@@ -13,57 +13,43 @@ layout: base
   </p>
 </section>
 
-<section>
-  {% assign home_content = site.documents |
-    where_exp: "item", "item.homepage_position != nil" |
-    sort: "homepage_position" %}
-
-  <ul class="featured-posts posts-grid content-grid">
-  {% for post in home_content %}
-    <li class="post-preview grid-item">
-      {% if post.collection == "images" %}
-        <img src="{{ site.baseurl }}/assets/images/{{ post.image }}">
-        {% if post.image_description %}
-          <p class="image-caption">{{ post.image_description }}</p>
-        {% endif %}
-      {% else %}
-        <a class="post-preview-link" href="{{ site.baseurl }}{{ post.url }}">
-          {% if post.main_image %}
-            <img src="{{ site.baseurl }}{{ post.main_image }}">
-          {% endif %}
-          <h3>{{ post.title }}</h3>
-          {% if post.collection == "pages" %}
-            {{ post.excerpt }}
-          {% else %}
-            <p>{{ post.event_date | date: "%A %B %-d, %Y" }}</p>
-          {% endif %}
-        </a>
-      {% endif %}
-    </li>
-  {% endfor %}
-  </ul>
-</section>
-
-<section class="events homepage">
-  <header class="events-header">
-    <h2>What's happening...</h2>
-    {% include events-intro.html %}
-  </header>
-
-  {% assign events = site.posts | sort: 'event_date' | reverse %}
-  <ul id="upcoming-events" class="events-list">
-  {% for event in events limit: 20 %}
-    {% include events-list-item.html %}
-  {% endfor %}
-  </ul>
-
-  <p id="events-placeholder" class="events-placeholder hidden">
-    Nothing coming up right now.
-    <a href="{{ site.baseurl }}/events">Things that have happened recently.</a>
-  </p>
-</section>
+<div id="react-root"></div>
 
 <section class="email-signup">
   <p>For general, occasional updates:</p>
   {% include email-signup.html %}
 </section>
+
+{% assign home_content = site.posts | sort: 'event_date' | reverse %}
+{% assign pinned_content = site.documents |
+  where_exp: "item", "item.homepage_position != nil" |
+  sort: "homepage_position" %}
+
+<script id="pinned-post-json">
+  [
+    {% for post in pinned_content %}
+      {
+        "title": "{{ post.title }}",
+        "url": "{{ site.baseurl }}{{ post.url }}",
+        "homepage_position": "{{ post.homepage_position }}",
+        "type": "{{ post.collection }}",
+        "image": "{% if post.image %}{{ site.baseurl }}/assets/images/{{ post.image }}{% elsif post.main_image %}{{ site.baseurl }}{{ post.main_image }}{% endif %}",
+        "image_description": "{% if post.image_description %}{{ post.image_description }}{% endif %}"
+      }{% if forloop.last == false %},{% endif %}
+    {% endfor %}
+  ]
+</script>
+
+<script id="event-post-json">
+  [
+    {% for post in home_content limit: 20 %}
+      {
+        "title": "{{ post.title }}",
+        "url": "{{ site.baseurl }}{{ post.url }}",
+        "type": "{{ post.collection }}",
+        "image": "{% if post.main_image %}{{ site.baseurl }}{{ post.main_image }}{% endif %}",
+        "date": "{{ post.event_date }}"
+      }{% if forloop.last == false %},{% endif %}
+    {% endfor %}
+  ]
+</script>

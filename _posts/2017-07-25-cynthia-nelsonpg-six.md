@@ -4,7 +4,6 @@ main_image: /assets/images/cynthia-nelson-pg6.jpg
 date: 2017-07-25 17:18:53.000000000 -05:00
 event_date: 2017-07-26T19:00:00-04:00
 published: true
-homepage_position: 12
 categories:
 - Music
 ---

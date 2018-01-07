@@ -1,5 +1,5 @@
 ---
-title: 'Marie Kølbæk Iversen: "Io/I" and Matrilineal Collapse I'
+title: "Marie Kølbæk Iversen: 'Io/I' and Matrilineal Collapse I"
 subtitle: "(PAR"
 main_image: /assets/images/IMG_4231.jpg
 date: 2017-07-08 17:09:14.000000000 -05:00

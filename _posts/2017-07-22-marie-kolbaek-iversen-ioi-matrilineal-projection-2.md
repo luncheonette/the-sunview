@@ -1,5 +1,5 @@
 ---
-title: 'Marie Kølbæk Iversen: "Io/I" and Matrilineal Projection II'
+title: "Marie Kølbæk Iversen: 'Io/I' and Matrilineal Projection II"
 subtitle: "(PARMER)"
 main_image: /assets/images/MKI2-375x500.jpg
 date: 2017-07-22 17:05:31.000000000 -05:00
