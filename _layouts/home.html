@@ -13,77 +13,43 @@ layout: base
   </p>
 </section>
 
-<section>
-  {% assign home_content = site.posts | sort: 'event_date' | reverse %}
-  {% assign pinned_counter = 0 %}
-  {% assign pinned_content = site.documents |
-    where_exp: "item", "item.homepage_position != nil" |
-    sort: "homepage_position" %}
-
-  <script id="pinned-post-json">
-    [
-      {% for post in pinned_content %}
-        {
-          "title": "{{ post.title }}",
-          "url": "{{ site.baseurl }}{{ post.url }}",
-          "homepage_position": "{{ post.homepage_position }}",
-          "type": "{{ post.collection }}",
-          "image": "{% if post.image %}{{ site.baseurl }}/assets/images/{{ post.main_image }}{% elsif post.main_image %}{{ site.baseurl }}/assets/images/{{ post.main_image }}{% endif %}",
-          "image_description": "{% if post.image_description %}{{ post.image_description }}{% endif %}"
-        }{% if forloop.last == false %},{% endif %}
-      {% endfor %}
-    ]
-  </script>
-
-  <script id="event-post-json">
-    [
-      {% for post in home_content limit: 20 %}
-        {
-          "title": "{{ post.title }}",
-          "url": "{{ site.baseurl }}{{ post.url }}",
-          "image": "{{ site.baseurl }}/assets/images/{{ post.image }}",
-          "date": "{{ post.event_date }}"
-        }{% if forloop.last == false %},{% endif %}
-      {% endfor %}
-    ]
-  </script>
-
-  <ul class="featured-posts posts-grid content-grid" id="all-events">
-  {% for post in home_content limit: 20 %}
-    {% assign pinned = pinned_content[pinned_counter] %}
-    {% if forloop.index == pinned.homepage_position %}
-      <li class="post-preview grid-item">
-        {% if pinned.collection == "images" %}
-          <img src="{{ site.baseurl }}/assets/images/{{ pinned.image }}">
-          {% if pinned.image_description %}
-            <p class="image-caption">{{ pinned.image_description }}</p>
-          {% endif %}
-        {% else %}
-          <a class="post-preview-link" href="{{ site.baseurl }}{{ pinned.url }}">
-            {% if pinned.main_image %}
-              <img src="{{ site.baseurl }}{{ pinned.main_image }}">
-            {% endif %}
-            <h3>{{ pinned.title }}</h3>
-          </a>
-        {% endif %}
-      </li>
-      {% assign pinned_counter = pinned_counter | plus: 1 %}
-    {% endif %}
-
-    <li class="post-preview grid-item" data-date="{{ post.event_date }}">
-      <a class="post-preview-link" href="{{ site.baseurl }}{{ post.url }}">
-        {% if post.main_image %}
-          <img src="{{ site.baseurl }}{{ post.main_image }}">
-        {% endif %}
-        <h3>{{ post.title }}</h3>
-        <p>{{ post.event_date | date: "%A %B %-d, %Y" }}</p>
-      </a>
-    </li>
-  {% endfor %}
-  </ul>
-</section>
+<div id="react-root"></div>
 
 <section class="email-signup">
   <p>For general, occasional updates:</p>
   {% include email-signup.html %}
 </section>
+
+{% assign home_content = site.posts | sort: 'event_date' | reverse %}
+{% assign pinned_content = site.documents |
+  where_exp: "item", "item.homepage_position != nil" |
+  sort: "homepage_position" %}
+
+<script id="pinned-post-json">
+  [
+    {% for post in pinned_content %}
+      {
+        "title": "{{ post.title }}",
+        "url": "{{ site.baseurl }}{{ post.url }}",
+        "homepage_position": "{{ post.homepage_position }}",
+        "type": "{{ post.collection }}",
+        "image": "{% if post.image %}{{ site.baseurl }}/assets/images/{{ post.image }}{% elsif post.main_image %}{{ site.baseurl }}{{ post.main_image }}{% endif %}",
+        "image_description": "{% if post.image_description %}{{ post.image_description }}{% endif %}"
+      }{% if forloop.last == false %},{% endif %}
+    {% endfor %}
+  ]
+</script>
+
+<script id="event-post-json">
+  [
+    {% for post in home_content limit: 20 %}
+      {
+        "title": "{{ post.title }}",
+        "url": "{{ site.baseurl }}{{ post.url }}",
+        "type": "{{ post.collection }}",
+        "image": "{% if post.main_image %}{{ site.baseurl }}{{ post.main_image }}{% endif %}",
+        "date": "{{ post.event_date }}"
+      }{% if forloop.last == false %},{% endif %}
+    {% endfor %}
+  ]
+</script>

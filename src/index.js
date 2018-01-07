@@ -1,35 +1,19 @@
-import listenToMenuClick from './site-menu';
-import { stylePastEvents, hasPassed } from './events';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import getHomepagePostData from './helpers/getHomepagePostData'
+import { styleEventsList } from './helpers/events'
+import HomepagePostsList from './components/HomepagePostsList.jsx'
+import listenToMenuClick from './site-menu'
+
+if (document.getElementById('react-root')) {
+  ReactDOM.render(
+    <HomepagePostsList posts={getHomepagePostData()} />,
+    document.getElementById('react-root')
+  )
+}
 
 window.onload = () => {
-  listenToMenuClick();
-  stylePastEvents('all-events');
-  renderHomeGrid();
+  listenToMenuClick()
+  styleEventsList('all-events')
 }
 
-const renderHomeGrid = () => {
-  const eventsData = JSON.parse(document.getElementById('event-post-json').text);
-  const pinnedData = JSON.parse(document.getElementById('pinned-post-json').text);
-
-  let upcoming = [];
-  let past = [];
-  let allPosts = [];
-
-  eventsData.forEach((event) => {
-    hasPassed(event.date) ? past.push(event) : upcoming.unshift(event);
-  });
-
-  allPosts = upcoming.concat(past);
-
-  pinnedData.forEach((post) => {
-    const insertAt = Number(post.homepage_position) - 1;
-    allPosts.splice(insertAt, 0, post);
-  });
-
-  allPosts.forEach((post) => {
-    const postEl = document.createElement('div');
-    const postTitle = document.createTextNode(post.title);
-    postEl.appendChild(postTitle);
-    document.body.append(postEl);
-  });
-}
