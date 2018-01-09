@@ -1,7 +1,8 @@
 ---
 title: Decolonial Mapping Toolkit 3
 subtitle: Presented by Frontview and Nicolas Mirzoeff
-event_date: 2018-01-28T14:30:54-05:00
+event_date: 2018-01-28T19:30:54.000Z
+main_image: /assets/images/anti-columbus_day_amnh4.jpg
 categories:
   - Workshops
 tags:
