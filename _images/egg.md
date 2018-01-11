@@ -1,5 +1,6 @@
 ---
-image: egg.png
-image_description: Nature's way of yolking around
-homepage_position: 14
+image: /assets/images/spanish brochure sunview.png
+caption: Spanish Lessons
+homepage_position: '3'
 ---
+
