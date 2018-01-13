@@ -1,6 +1,6 @@
 ---
 image: /assets/images/spanish brochure sunview.png
-caption: 'Spanish Lessons with '
+caption: Spanish Lessons at Sunview
 homepage_position: '3'
 ---
 
