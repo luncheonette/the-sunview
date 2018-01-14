@@ -33,7 +33,7 @@ layout: base
         "url": "{{ site.baseurl }}{{ post.url }}",
         "homepage_position": "{{ post.homepage_position }}",
         "type": "{{ post.collection }}",
-        "image": "{% if post.image %}{{ site.baseurl }}/assets/images/{{ post.image }}{% elsif post.main_image %}{{ site.baseurl }}{{ post.main_image }}{% endif %}",
+        "image": "{% if post.image %}{{ site.baseurl }}{{ post.image }}{% elsif post.main_image %}{{ site.baseurl }}{{ post.main_image }}{% endif %}",
         "image_description": "{% if post.image_description %}{{ post.image_description }}{% endif %}"
       }{% if forloop.last == false %},{% endif %}
     {% endfor %}
