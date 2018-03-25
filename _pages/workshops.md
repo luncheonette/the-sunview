@@ -1,7 +1,6 @@
 ---
 title: Workshops
 subtitle: Demos and Skillshares
-homepage_position: '3'
 ---
 First Workshop: Spanish (1&2) with Pascual Brodsky
 
