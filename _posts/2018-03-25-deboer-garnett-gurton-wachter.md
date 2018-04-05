@@ -1,6 +1,6 @@
 ---
 title: DeBoer/Garnett/Gurton-Wachter Chapbook Party
-event_date: 2018-03-24T15:00:00-05:00
+event_date: 2018-03-25T15:00:00-05:00
 main_image: /assets/images/deboer-garnett-gurton-wachter.jpg
 categories:
   - Poetry
