@@ -13,6 +13,14 @@ BQX streetcar to follow.
 
 Screening order:
 
+**"Williamsburg" Dir. Jonas Mekas, 11min, 2002**<br>
+"A pocket-sized city symphony, WILLIAMSBURG collects some of the first images
+Jonas Mekas shot with a film camera in 1950 (along with footage from 1972 when
+he was returning to his old neighborhood as a visitor). Bygone Brooklyn is
+richly evoked in the everyday life of the street: the elevated train, Lithuanian
+storefronts and especially in the faces of children surprised to encounter this
+man with a movie camera." - Max Goldberg
+
 **"Don't Fall in Love with Buildings" Dir. Amy Jenkins, 8.5min, 2012**<br>
 In the wake of rampant “luxury” development that doomed our Brooklyn
 neighborhood, Don’t Fall in Love with Buildings was filmed with a surveillance
