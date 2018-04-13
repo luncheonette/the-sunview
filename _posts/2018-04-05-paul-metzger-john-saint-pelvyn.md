@@ -1,5 +1,5 @@
 ---
-title: Paul Metzger/John Saint-Pelvyn
+title: Paul Metzger/John Saint-Pelvyn/Lucie Vítková
 event_date: 2018-04-24T19:00:00-05:00
 main_image: /assets/images/paul-metzger-2.jpg
 categories:
@@ -50,3 +50,25 @@ vicinity of a howling theremin, indeed, he seems to be playing the very air
 itself."* - Electro Motive Records
 
 [https://midheaven.com/item/a-clerical-error-in-shasta-county-shouldnt-have-to-ruin-a-saturday-night-by-saintpelvyn-john](https://midheaven.com/item/a-clerical-error-in-shasta-county-shouldnt-have-to-ruin-a-saturday-night-by-saintpelvyn-john)
+
+<img src="{{ site.baseurl }}/assets/images/lucie-vitkova.jpg" alt="Lucie Vítková" />
+
+**Lucie Vítková** is a composer, improviser and performer (accordion, hichiriki,
+synthesizer, voice and tap dance) from the Czech Republic, recently, based in
+New York. Her compositions focus on sonification (compositions based on
+abstract models derived from physical objects), while in her improvisation
+practice she explores characteristics of discrete spaces through the
+interaction between sound and movement. Recently, in her music, she has been
+interested in working with objects of everyday use and has done extensive work
+with trash.
+
+She has been nominated on **2017 Herb Alpert Awards in Arts** in category of Music
+and she has put together two ensembles – *NYC Constellation Ensemble* (focused on
+musical behavior) and *OPERA ensemble* (for singing instrumentalists). During the
+*Mentor/Protégé Residency* in Tokyo (JP), she studied hichiriki with Hitomi
+Nakamura and has been a member of the *Columbia University Gagaku Ensemble*. As
+an accordion player, she collaborated with New York based *TAK Ensemble*,
+Kamraton, *S.E.M. ensemble*, *String Noise*, *Du.0*, *Argento Ensemble*, *Ghost
+Ensemble*, *CU Raaga* and *Wet Ink*.
+
+[http://www.vitkovalucie.com/](http://www.vitkovalucie.com/)
