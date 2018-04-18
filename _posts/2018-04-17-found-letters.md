@@ -1,6 +1,6 @@
 ---
 title: Found Letters
-event_date: '2018-04-21T19:30:00-04:00'
+event_date: 2018-04-21T19:30:00-04:00
 main_image: /assets/images/unnamed.jpg
 image_caption: Found letters
 categories:
