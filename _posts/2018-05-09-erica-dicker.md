@@ -5,6 +5,7 @@ main_image: /assets/images/erica-dicker-andplay-duo.jpg
 ---
 
 erica dicker<br>
+dana jessen<br>
 andPlay Duo<br>
 
 Friday, May 25
