@@ -1,4 +1,4 @@
 ---
 image: /assets/images/book.png
-homepage_position: 8
+homepage_position: 15
 ---
