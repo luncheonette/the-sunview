@@ -1,6 +1,6 @@
 ---
 title: California Camp Fire Relief Benefit
-event_date: 2018-11-29T19:00:00-04:00
+event_date: 2018-12-02T15:00:00-04:00
 main_image: /assets/images/camp-fire-benefit.png
 ---
 
