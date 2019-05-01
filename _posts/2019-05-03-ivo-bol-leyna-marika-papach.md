@@ -4,9 +4,9 @@ event_date: 2019-05-03T20:00:00-04:00
 main_image: /assets/images/leyna-marika-papach-and-ivo-bol.jpg
 ---
 
-**"Sometimes we gotta step out of the chronological brain, and just sniff each other out."
+**"Sometimes we gotta step out of the chronological brain, and just sniff each other out."**
 
-SUNVIEW AT NIGHT // An escape from politics?<br>
+**SUNVIEW AT NIGHT // An escape from politics?<br>
 ~ party for the right brain, ears, nose and mouth ~**
 
 Musicians **Ivo Bol** and **Leyna Marika Papach** are excited to play with each
