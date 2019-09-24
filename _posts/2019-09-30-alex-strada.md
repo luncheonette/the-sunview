@@ -9,7 +9,7 @@ practitioners get together, drink, and have candid conversations about the work
 they produce.<br>
 [vehiclevehiclevehicle.com](https://vehiclevehiclevehicle.com/)
 
-This meeting will take place on Monday May 27 at 7pm.
+This meeting will take place on Monday September 30 at 7pm.
 
 The Sunview Luncheonette<br>
 221 Nassau Street, Brooklyn NY 11222
