@@ -20,7 +20,7 @@
 }
 
 .post-content {
-  p {
+  p, ul {
     @media (max-width: $screen-sm-min) {
       font-size: 16px;
     }
