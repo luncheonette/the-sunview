@@ -1,6 +1,7 @@
 ---
 title: Second Irregular Helical Symposium on Chairs
 event_date: 2019-11-02T19:00:00-04:00
+published: false
 main_image: /assets/images/MunariChair.jpg
 ---
 
