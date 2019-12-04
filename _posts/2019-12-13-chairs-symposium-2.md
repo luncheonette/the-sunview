@@ -1,7 +1,6 @@
 ---
 title: Second Irregular Helical Symposium on Chairs
-event_date: 2019-11-02T19:00:00-04:00
-published: false
+event_date: 2019-12-13T19:00:00-04:00
 main_image: /assets/images/MunariChair.jpg
 ---
 
@@ -10,8 +9,8 @@ Comrades,
 I am somewhere between ninety-five and ninety-seven percent certain that we
 need to reconvene and once again attempt to ascertain what the hell is going on
 with all these goddam chairs everywhere, so I have set aside the night of
-November 2nd, which will no doubt be a glorious fall evening, resonant with the
-sounds of the house sparrows and starlings that make their homes within the
+December 13th, which will no doubt be a glorious fall evening, resonant with
+the sounds of the house sparrows and starlings that make their homes within the
 signage and aluminum siding of our dear luncheonette, for the Second Irregular
 Heliacal Symposium on Chairs. Whether you are an expert on chairs or
 frustratingly befuddled by them, please come prepared to present on any
