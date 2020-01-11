@@ -1,6 +1,6 @@
 ---
-image: /assets/images/spanish-brochure-sunview.png
-caption: Spanish Lessons at Sunview
+image: /assets/images/2mf-bethany-ides.jpg
+caption: 2MF Bethany Ides
 homepage_position: 5
 ---
 
