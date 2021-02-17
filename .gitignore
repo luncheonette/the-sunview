@@ -1,4 +1,7 @@
 # Jekyll site files
+
+.jekyll-cache/
+
 _site
 .sass-cache/
 .sass-cache*
