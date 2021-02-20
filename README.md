@@ -95,14 +95,19 @@ To use the CMS:
 3. Visit `/admin` - you'll be prompted to sign in using Github.
 4. Once you've signed in, you should see the CMS Dashboard.
 
-## Local Development
+## Local Setup
 
 1. `git clone git@github.com:luncheonette/the-sunview.git`
-2. `bundle install` to install all the gems
-3. `yarn install` to install js dependencies
-4. `bundle exec jekyll serve` to run Jekyll locally
-5. `yarn start` to run Jekyll *and* make webpack watch for changes to js files
-6. Point your browser to `localhost:3000`
+2. Install ruby 2.7.2 (using [rbenv](https://github.com/rbenv/rbenv) or your version manager of choice)
+3. Download a recent version of [Node](https://nodejs.org/en/download/) & npm if you don't have it.
+4. `bundle install` to install all the gems
+5. `npm install` to install js dependencies
+
+## Local Development
+
+1. `bundle install && npm install` to make sure you have the latest dependencies.
+2. `npm start` to run Jekyll *and* make webpack watch for changes to js files
+3. Point your browser to `localhost:3000`
 
 ## Resources
 
