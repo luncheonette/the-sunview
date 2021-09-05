@@ -1,8 +1,8 @@
 ---
-title: "WINDOW DRESSING by Amy Ruhl (8/20 - 9/16)"
-event_date: 2021-09-16T20:00:00-04:00
+title: "WINDOW DRESSING by Amy Ruhl (8/20 - 9/19)"
+event_date: 2021-09-19T20:00:00-04:00
 main_image: /assets/images/window-dressing-1.jpeg
-subtitle: Wednesdays through Sundays 12pm-8pm, Friday August 20 through September 16
+subtitle: Wednesdays through Sundays 12pm-8pm, Friday August 20 through September 19
 ---
 
 
