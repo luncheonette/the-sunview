@@ -1,5 +1,6 @@
 ---
-title: Being A Stranger, Being Made A Stranger
+title: BEING A STRANGER, BEING MADE A STRANGER Which is the tragedy?
+subtitle: Choey
 event_date: 2022-07-02T12:00:00-04:00
 main_image: /assets/images/being-a-stranger.jpeg
 ---
