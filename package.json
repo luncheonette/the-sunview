@@ -5,6 +5,7 @@
   "repository": "git@github.com:luncheonette/the-sunview.git",
   "author": "Kirsten Nordine <kirstennordine@gmail.com>",
   "license": "MIT",
+  "engines": { "node": "^16.17.0" },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
