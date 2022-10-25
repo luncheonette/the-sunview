@@ -15,7 +15,9 @@ Cherrie Yu
 
 Doors at 7:30, Screenings at 8<br>
 Porn Film Festival Berlin Official Selection 2022<br>
-[Official Trailer](https://vimeo.com/pattygone/theoppositetrailer)
+[Official Trailer](https://vimeo.com/pattygone/theoppositetrailer)<br>
+Space is limited so please rsvp to pattygonebiz at gmail dot com with the
+subject line 'OPPOSITE' for reservations
 
 What do 'Seinfeld' and a psychedelic pilgrimage across the US have to do with
 one another? Gone merges both to uncover profound truths about comedy and
