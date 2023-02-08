@@ -1,5 +1,5 @@
 ---
-title: Rainbow Room
+title: Rainbow Diner
 subtitle: Light and Sound Installation/ Cassette Release by Camilla Padgitt-Coles
 event_date: 2023-02-10T18:00:00-04:00
 main_image: /assets/images/rainbowroom-1.jpeg
