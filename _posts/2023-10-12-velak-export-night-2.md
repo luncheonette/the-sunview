@@ -1,5 +1,5 @@
 ---
-title: Velak (10/12)
+title: Velak (10/11, 10/12)
 event_date: 2023-10-12T19:00:00-04:00
 main_image: /assets/images/velak-export.png
 ---
