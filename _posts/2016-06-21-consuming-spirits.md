@@ -12,7 +12,7 @@ categories:
 <b><i>Consuming Spirits</i> (2012, 136 min)</b><br />
 a film by Chris Sullivan<br />
 <b>Friday, June 24th @ 7:30pm </b></p>
-<p><strong>RSVP to Shelby: indiea.ea@gmail.com</strong></p>
+<p><strong>RSVP to Shelby</strong></p>
 <p>Suggested Donation Entry + BYOB</p>
 <p>Looking forward to sharing an evening of haunting animation with you.<br />
 From a field of wildflowers off a dirt road on a Catskill mountain with sparse wifi. - SS</p>
