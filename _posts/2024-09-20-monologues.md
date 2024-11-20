@@ -7,5 +7,5 @@ main_image: /assets/images/2024-09-20-monologues.jpeg
 Monologues, featuring:
 
 Lillian Paige Walton<br>
-J. Gordan Faylor<br>
+J. Gordon Faylor<br>
 Barrett White
