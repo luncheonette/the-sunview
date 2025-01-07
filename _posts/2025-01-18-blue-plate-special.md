@@ -21,9 +21,9 @@ performance
 
 Dominika Mazurová: a permanent cultural Other///sonic tinkerer
 
-**Shelley Hirsch** has been pushing boundaries with her unique vocal art drawing
-on her life experiences, her memory, and her vivid imagination for decades. She
-has presented her compositions, staged multimedia works, improvisations, radio
+Shelley Hirsch has been pushing boundaries with her unique vocal art drawing on
+her life experiences, her memory, and her vivid imagination for decades. She has
+presented her compositions, staged multimedia works, improvisations, radio
 plays, installations, and collaborations in concert halls, clubs, festivals,
 theaters, museums, galleries, and on radio, film, and television on five
 continents.
