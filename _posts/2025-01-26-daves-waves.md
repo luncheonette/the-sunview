@@ -1,5 +1,5 @@
 ---
-title: Daves Waves (1/24 - 1/26)
+title: Daves Waves
 event_date: 2025-01-24T19:00:00-04:00
 end_date: 2025-01-26T18:00:00-04:00
 main_image: /assets/images/2025-01-26-daves-waves.png
