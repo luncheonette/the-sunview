@@ -1,6 +1,7 @@
 ---
 title: Background Moods
 event_date: 2024-10-25T18:00:00-04:00
+end_date: 2024-10-27T18:00:00-4:00
 main_image: /assets/images/background-moods.gif
 ---
 
