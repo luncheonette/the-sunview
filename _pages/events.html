@@ -21,7 +21,11 @@ title: Events
       <a href="{{ site.baseurl }}{{ event.url }}">
         <div>
           <span class="title">{{ event.title }}</span>
-          <span>{{ event.event_date | date: "%A %B %-d, %Y" }}</span>
+          {% if event.end_date %}
+            <span>{{ event.event_date | date: "%A %B %-d" }} - {{ event.end_date | date: "%A %B %-d, %Y" }}</span>
+          {% else %}
+            <span>{{ event.event_date | date: "%A %B %-d, %Y" }}</span>
+          {% endif %}
         </div>
         <span class="arrow">&raquo;</span>
       </a>
