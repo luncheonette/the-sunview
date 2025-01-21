@@ -3,7 +3,7 @@ import HomepagePost from './HomepagePost.jsx'
 import HomepageImage from './HomepageImage.jsx'
 
 const renderHomepageComponent = (post) => {
-  const { title, image, url, image_description, date, type, eventStatus } = post
+  const { title, image, url, image_description, date, endDate, type, eventStatus } = post
 
   if (post.type === "images") {
     return (
@@ -19,6 +19,7 @@ const renderHomepageComponent = (post) => {
         image={image}
         url={url}
         date={date}
+        endDate={endDate}
         eventStatus={eventStatus}
       />
     )

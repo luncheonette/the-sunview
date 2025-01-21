@@ -50,7 +50,8 @@ layout: base
         "url": "{{ site.baseurl }}{{ post.url }}",
         "type": "{{ post.collection }}",
         "image": "{% if post.main_image %}{{ site.baseurl }}{{ post.main_image }}{% endif %}",
-        "date": "{{ post.event_date }}"
+        "date": "{{ post.event_date }}",
+        "endDate": "{{ post.end_date }}"
       }{% if forloop.last == false %},{% endif %}
     {% endfor %}
   ]
