@@ -10,7 +10,11 @@ layout: base
 </header>
 
 {% if page.event_date %}
-  <p class="date-info">{{ page.event_date | date: "%A %B %-d, %Y @ %l:%M %P" }}</p>
+  {% if page.end_date %}
+    <p class="date-info">{{ page.event_date | date: "%A %B %-d @ %l:%M %P" }} - {{ page.end_date | date: "%A %B %-d, %Y @ %l:%M %P" }}</p>
+  {% else %}
+    <p class="date-info">{{ page.event_date | date: "%A %B %-d, %Y @ %l:%M %P" }}</p>
+  {% endif %}
 {% endif %}
 
 {% if page.main_image %}
