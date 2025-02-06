@@ -1,5 +1,5 @@
 ---
-title: "Artist Horror XIII: The Black Cat"
+title: "ARTIST-HORROR XIII: The Black Cat"
 event_date: 2024-11-29T19:00:00-04:00
 main_image: /assets/images/artist-horror-xiii.jpg
 ---
