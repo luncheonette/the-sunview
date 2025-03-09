@@ -36,5 +36,11 @@ every day until her passing in 2018.
 🌞✨ **#VivaTheSunview #SupportCommunitySpaces #SunviewMoves #SunviewSunrise**
 
 <div class="donate-buttons">
-  <a class="button-link" href="https://account.venmo.com/u/sunview-luncheonette" target="_blank">Donate on Venmo</a>
+  <a class="button-link" href="https://account.venmo.com/u/sunview-luncheonette"
+  target="_blank">
+    Donate with Venmo
+  </a>
+  <a class="button-link" href="https://www.paypal.com/paypalme/thesunview" target="_blank">
+    Donate with PayPal
+  </a>
 </div>
