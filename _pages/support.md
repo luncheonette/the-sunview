@@ -2,6 +2,32 @@
 title: Support
 ---
 
+<section class="homepage-announcement">
+  <h3>We're Moving!</h3>
+  <p>
+    After 12 ✨stellar✨ years as a cooperative, not-for-profit community art and
+    cultural space in Greenpoint, the Sunview Luncheonette is preparing for a
+    cosmic transition. The building at <strong>221 Nassau Ave</strong> has been
+    sold, and while this marks the end of an era, it is also the beginning of a
+    new one for the collective.
+  </p>
+  <p>
+    We are moving to <strong>a new home</strong>—one that will continue to be an
+    <strong>inclusive gathering space</strong> for artists, organizers,
+    eco-activists, poets and writers, neighbors, and friends, and we need your
+    help to make it happen!
+  </p>
+  <p>
+    <a href="/help-us-move">Read more</a>
+  </p>
+  <div class="donate-buttons">
+    <a class="button-link" href="https://account.venmo.com/u/sunview-luncheonette" target="_blank">Donate with Venmo</a>
+    <a class="button-link" href="https://www.paypal.com/paypalme/thesunview" target="_blank">
+      Donate with PayPal
+    </a>
+  </div>
+</section>
+
 Help support the Sunview Luncheonette through a one-time donation of any
 amount.  The Sunview is not-for-profit and all donations will go toward
 maintaining the building and supporting our programs. We are fiscally sponsored
