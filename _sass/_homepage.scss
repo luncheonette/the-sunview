@@ -7,7 +7,7 @@
 }
 
 .homepage-announcement {
-  border: 1px solid black;
+  border: 2px solid black;
   padding: 15px;
   margin-bottom: 60px;
 
@@ -24,6 +24,23 @@
 
     p, a {
       font-size: 24px;
+    }
+  }
+}
+
+.donate-buttons {
+  display: flex;
+  gap: 15px;
+
+  .button-link {
+    color: black;
+    border: 2px solid black;
+    padding: 15px;
+    font-size: 20px;
+
+    &:hover {
+      background-color: black;
+      color: white;
     }
   }
 }

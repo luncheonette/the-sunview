@@ -34,3 +34,7 @@ every day until her passing in 2018.
 
 💛 **Donate today and help us birth the next chapter of Sunview**<br>
 🌞✨ **#VivaTheSunview #SupportCommunitySpaces #SunviewMoves #SunviewSunrise**
+
+<div class="donate-buttons">
+  <a class="button-link" href="https://account.venmo.com/u/sunview-luncheonette" target="_blank">Donate on Venmo</a>
+</div>
