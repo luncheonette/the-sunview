@@ -6,6 +6,28 @@
   }
 }
 
+.homepage-announcement {
+  border: 1px solid black;
+  padding: 15px;
+  margin-bottom: 60px;
+
+  h3 {
+    margin-top: 0;
+  }
+
+  p, a {
+    font-size: 18px;
+  }
+
+  @media (min-width: $screen-md-min) {
+    padding: 30px;
+
+    p, a {
+      font-size: 24px;
+    }
+  }
+}
+
 .featured-posts {
   .post-preview {
     text-align: center;
