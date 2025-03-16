@@ -1,0 +1,10 @@
+---
+title: "Yuki + LeLe / Marcia Bassett + Chuck Bettis"
+event_date: 2025-03-23-19:00:00-04:00
+main_image: /assets/images/2025-03-23-yuki-lele-marcia-bassett-chuck-bettis.jpeg
+---
+
+Yuki + LeLe<br>
+(First show + Tape release)
+
+Marcia Bassett + Chuck Bettis
