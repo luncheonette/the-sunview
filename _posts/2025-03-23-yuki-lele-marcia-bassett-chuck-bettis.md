@@ -8,3 +8,5 @@ Yuki + Lele<br>
 (First show + Tape release)
 
 Marcia Bassett + Chuck Bettis
+
+<img src="{{ site.baseurl }}/assets/images/2025-03-23-yuki-lele-marcia-bassett-chuck-bettis-2.jpeg" />
