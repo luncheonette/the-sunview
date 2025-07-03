@@ -1,7 +1,7 @@
 ---
 title: Oceanic Sound Seminar 2
 subtitle: Sounds of the Sea for Solidarity
-event_date: 2025-07-25-12:00:00-04:00
+event_date: 2025-07-12-12:00:00-04:00
 main_image: /assets/images/2025-07-12-sounds-of-the-sea-for-solidarity.png
 ---
 
