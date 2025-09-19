@@ -1,7 +1,7 @@
 ---
 title: "ARTIST-HORROR XII:  Mystery of the Wax Museum"
 event_date: 2025-09-19-19:00:00-04:00
-main_image: /assets/images/2025-09-19-artist-horror-xii.png
+main_image: /assets/images/2025-09-19-artist-horror-xii.jpeg
 ---
 
 Friday, September 19, 7:00PM: ARTIST-HORROR XII: Mystery of the Wax Museum, 1933.
