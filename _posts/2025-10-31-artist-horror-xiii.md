@@ -2,6 +2,7 @@
 title: "ARTIST-HORROR XIII: Hallowe'en Extravaganza"
 event_date: 2025-10-31-19:00:00-04:00
 main_image: /assets/images/artist-horror-xiii-halloween.jpg
+permalink: /artist-horror-xiii-halloween-extravaganza/
 ---
 
 **ARTIST-HORROR XIII: Hallowe'en Extravaganza**<br>
