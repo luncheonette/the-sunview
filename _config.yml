@@ -47,8 +47,6 @@ defaults:
 include:
 - _assets
 
-exclude: ['node_modules', 'src']
-
 sass:
   sass_dir: _sass
   style: compressed

@@ -14,44 +14,90 @@ layout: base
   </p>
 </section>
 
-<div id="react-root"></div>
+{% assign all_events = site.posts | sort: 'event_date' | reverse %}
+{% assign upcoming = '' | split: '' %}
+{% assign past = '' | split: '' %}
+{% assign today = 'now' | date: '%Y%m%d' %}
 
-<section class="email-signup">
-  Sign up for general, occasional updates:
-  <iframe src="https://embeds.beehiiv.com/cabde7be-00cb-4a00-8379-84e35c69b436?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe> 
-</section>
+{% for event in all_events limit: 20 %}
+  {% assign event_date = event.end_date | default: event.event_date | date: '%Y%m%d' %}
+  {% if event_date >= today %}
+    {% assign upcoming = upcoming | push: event %}
+  {% else %}
+    {% assign past = past | push: event %}
+  {% endif %}
+{% endfor %}
 
-{% assign home_content = site.posts | sort: 'event_date' | reverse %}
+{% assign upcoming_reversed = upcoming | reverse %}
+{% assign sorted_events = upcoming_reversed | concat: past %}
+
 {% assign pinned_content = site.documents |
   where_exp: "item", "item.homepage_position != nil" |
   sort: "homepage_position" %}
 
-<script id="pinned-post-json">
-  [
-    {% for post in pinned_content %}
-      {
-        "title": "{{ post.title }}",
-        "url": "{{ site.baseurl }}{{ post.url }}",
-        "homepage_position": "{{ post.homepage_position }}",
-        "type": "{{ post.collection }}",
-        "image": "{% if post.image %}{{ site.baseurl }}{{ post.image }}{% elsif post.main_image %}{{ site.baseurl }}{{ post.main_image }}{% endif %}",
-        "image_description": "{% if post.image_description %}{{ post.image_description }}{% endif %}"
-      }{% if forloop.last == false %},{% endif %}
-    {% endfor %}
-  ]
-</script>
+<ul class="featured-posts posts-grid content-grid">
+  {% assign event_index = 0 %}
+  {% assign max_positions = sorted_events.size | plus: pinned_content.size %}
 
-<script id="event-post-json">
-  [
-    {% for post in home_content limit: 20 %}
-      {
-        "title": "{{ post.title }}",
-        "url": "{{ site.baseurl }}{{ post.url }}",
-        "type": "{{ post.collection }}",
-        "image": "{% if post.main_image %}{{ site.baseurl }}{{ post.main_image }}{% endif %}",
-        "date": "{{ post.event_date }}",
-        "endDate": "{{ post.end_date }}"
-      }{% if forloop.last == false %},{% endif %}
+  {% for i in (1..max_positions) %}
+    {% assign pinned_at_position = nil %}
+    {% for pinned in pinned_content %}
+      {% if pinned.homepage_position == i %}
+        {% assign pinned_at_position = pinned %}
+        {% break %}
+      {% endif %}
     {% endfor %}
-  ]
-</script>
+
+    {% if pinned_at_position %}
+      <li class="post-preview grid-item">
+        {% if pinned_at_position.collection == "images" %}
+          <img src="{{ site.baseurl }}{{ pinned_at_position.image }}" alt="{{ pinned_at_position.caption }}" />
+        {% else %}
+          <a class="post-preview-link" href="{{ site.baseurl }}{{ pinned_at_position.url }}">
+            {% if pinned_at_position.main_image %}
+              <img src="{{ site.baseurl }}{{ pinned_at_position.main_image }}" />
+            {% endif %}
+            <h3>{{ pinned_at_position.title }}</h3>
+          </a>
+        {% endif %}
+      </li>
+    {% else %}
+      {% if event_index < sorted_events.size %}
+        {% assign post = sorted_events[event_index] %}
+        {% assign event_index = event_index | plus: 1 %}
+
+        {% assign post_date = post.end_date | default: post.event_date | date: '%Y%m%d' %}
+        {% if post_date >= today %}
+          {% assign event_status = 'upcoming' %}
+        {% else %}
+          {% assign event_status = 'past' %}
+        {% endif %}
+
+        <li class="post-preview grid-item {{ event_status }}">
+          <a class="post-preview-link" href="{{ site.baseurl }}{{ post.url }}">
+            {% if post.main_image %}
+              <img src="{{ site.baseurl }}{{ post.main_image }}" />
+            {% endif %}
+            <h3>{{ post.title }}</h3>
+            <p>
+              {% if post.end_date %}
+                {{ post.event_date | date: "%A %B %-d" }} - {{ post.end_date | date: "%A %B %-d, %Y" }}
+              {% else %}
+                {{ post.event_date | date: "%A %B %-d, %Y" }}
+              {% endif %}
+            </p>
+          </a>
+        </li>
+      {% endif %}
+    {% endif %}
+
+    {% if event_index >= sorted_events.size and i > pinned_content.last.homepage_position %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+</ul>
+
+<section class="email-signup">
+  Sign up for general, occasional updates:
+  <iframe src="https://embeds.beehiiv.com/cabde7be-00cb-4a00-8379-84e35c69b436?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe>
+</section>

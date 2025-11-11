@@ -1,0 +1,9 @@
+[build]
+  command = "bundle exec jekyll build"
+  publish = "_site"
+
+[build.environment]
+  # Use Ruby version from .ruby-version file
+  RUBY_VERSION = "2.7.2"
+  # Skip Node.js entirely
+  NODE_VERSION = ""
