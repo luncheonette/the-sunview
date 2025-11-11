@@ -4,6 +4,6 @@
 
 [build.environment]
   # Use Ruby version from .ruby-version file
-  RUBY_VERSION = "2.7.2"
+  RUBY_VERSION = "3.3.10"
   # Skip Node.js entirely
   NODE_VERSION = ""
