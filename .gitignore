@@ -59,5 +59,3 @@ typings/
 .env
 
 .DS_Store
-
-assets/bundle.js
