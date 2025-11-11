@@ -14,7 +14,6 @@ layout: base
   </p>
 </section>
 
-{% comment %}Separate events into upcoming and past{% endcomment %}
 {% assign all_events = site.posts | sort: 'event_date' | reverse %}
 {% assign upcoming = '' | split: '' %}
 {% assign past = '' | split: '' %}
@@ -29,35 +28,75 @@ layout: base
   {% endif %}
 {% endfor %}
 
-{% comment %}Combine: upcoming first (reversed to show soonest first), then past{% endcomment %}
 {% assign upcoming_reversed = upcoming | reverse %}
 {% assign sorted_events = upcoming_reversed | concat: past %}
 
+{% assign pinned_content = site.documents |
+  where_exp: "item", "item.homepage_position != nil" |
+  sort: "homepage_position" %}
+
 <ul class="featured-posts posts-grid content-grid">
-  {% for post in sorted_events %}
-    {% comment %}Determine if event has passed{% endcomment %}
-    {% assign post_date = post.end_date | default: post.event_date | date: '%Y%m%d' %}
-    {% if post_date >= today %}
-      {% assign event_status = 'upcoming' %}
+  {% assign event_index = 0 %}
+  {% assign max_positions = sorted_events.size | plus: pinned_content.size %}
+
+  {% for i in (1..max_positions) %}
+    {% assign pinned_at_position = nil %}
+    {% for pinned in pinned_content %}
+      {% if pinned.homepage_position == i %}
+        {% assign pinned_at_position = pinned %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+
+    {% if pinned_at_position %}
+      <li class="post-preview grid-item">
+        {% if pinned_at_position.collection == "images" %}
+          <img src="{{ site.baseurl }}{{ pinned_at_position.image }}" alt="{{ pinned_at_position.caption }}" />
+          {% if pinned_at_position.caption %}
+            <p class="image-caption">{{ pinned_at_position.caption }}</p>
+          {% endif %}
+        {% else %}
+          <a class="post-preview-link" href="{{ site.baseurl }}{{ pinned_at_position.url }}">
+            {% if pinned_at_position.main_image %}
+              <img src="{{ site.baseurl }}{{ pinned_at_position.main_image }}" />
+            {% endif %}
+            <h3>{{ pinned_at_position.title }}</h3>
+          </a>
+        {% endif %}
+      </li>
     {% else %}
-      {% assign event_status = 'past' %}
+      {% if event_index < sorted_events.size %}
+        {% assign post = sorted_events[event_index] %}
+        {% assign event_index = event_index | plus: 1 %}
+
+        {% assign post_date = post.end_date | default: post.event_date | date: '%Y%m%d' %}
+        {% if post_date >= today %}
+          {% assign event_status = 'upcoming' %}
+        {% else %}
+          {% assign event_status = 'past' %}
+        {% endif %}
+
+        <li class="post-preview grid-item {{ event_status }}">
+          <a class="post-preview-link" href="{{ site.baseurl }}{{ post.url }}">
+            {% if post.main_image %}
+              <img src="{{ site.baseurl }}{{ post.main_image }}" />
+            {% endif %}
+            <h3>{{ post.title }}</h3>
+            <p>
+              {% if post.end_date %}
+                {{ post.event_date | date: "%A %B %-d" }} - {{ post.end_date | date: "%A %B %-d, %Y" }}
+              {% else %}
+                {{ post.event_date | date: "%A %B %-d, %Y" }}
+              {% endif %}
+            </p>
+          </a>
+        </li>
+      {% endif %}
     {% endif %}
 
-    <li class="post-preview grid-item {{ event_status }}">
-      <a class="post-preview-link" href="{{ site.baseurl }}{{ post.url }}">
-        {% if post.main_image %}
-          <img src="{{ site.baseurl }}{{ post.main_image }}" />
-        {% endif %}
-        <h3>{{ post.title }}</h3>
-        <p>
-          {% if post.end_date %}
-            {{ post.event_date | date: "%A %B %-d" }} - {{ post.end_date | date: "%A %B %-d, %Y" }}
-          {% else %}
-            {{ post.event_date | date: "%A %B %-d, %Y" }}
-          {% endif %}
-        </p>
-      </a>
-    </li>
+    {% if event_index >= sorted_events.size and i > pinned_content.last.homepage_position %}
+      {% break %}
+    {% endif %}
   {% endfor %}
 </ul>
 
