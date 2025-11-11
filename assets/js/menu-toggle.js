@@ -1,4 +1,4 @@
-const listenToMenuClick = () => {
+(function() {
   const menu = document.getElementById('menu');
   document.body.addEventListener('click', (event) => {
     if (event.target.id === 'menu-toggle') {
@@ -7,6 +7,4 @@ const listenToMenuClick = () => {
       menu.classList.add('hidden');
     }
   });
-}
-
-export default listenToMenuClick;
+})();
