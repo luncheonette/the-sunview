@@ -31,17 +31,17 @@
 .donate-buttons {
   display: flex;
   gap: 15px;
+}
 
-  .button-link {
-    color: black;
-    border: 2px solid black;
-    padding: 15px;
-    font-size: 20px;
+.button-link {
+  color: black;
+  border: 2px solid black;
+  padding: 15px;
+  font-size: 20px;
 
-    &:hover {
-      background-color: black;
-      color: white;
-    }
+  &:hover {
+    background-color: black;
+    color: white;
   }
 }
 
