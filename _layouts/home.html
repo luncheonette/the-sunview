@@ -14,11 +14,36 @@ layout: base
   </p>
 </section>
 
-{% assign home_content = site.posts | sort: 'event_date' | reverse %}
+{% comment %}Separate events into upcoming and past{% endcomment %}
+{% assign all_events = site.posts | sort: 'event_date' | reverse %}
+{% assign upcoming = '' | split: '' %}
+{% assign past = '' | split: '' %}
+{% assign today = 'now' | date: '%Y%m%d' %}
+
+{% for event in all_events limit: 20 %}
+  {% assign event_date = event.end_date | default: event.event_date | date: '%Y%m%d' %}
+  {% if event_date >= today %}
+    {% assign upcoming = upcoming | push: event %}
+  {% else %}
+    {% assign past = past | push: event %}
+  {% endif %}
+{% endfor %}
+
+{% comment %}Combine: upcoming first (reversed to show soonest first), then past{% endcomment %}
+{% assign upcoming_reversed = upcoming | reverse %}
+{% assign sorted_events = upcoming_reversed | concat: past %}
 
 <ul class="featured-posts posts-grid content-grid">
-  {% for post in home_content limit: 20 %}
-    <li class="post-preview grid-item">
+  {% for post in sorted_events %}
+    {% comment %}Determine if event has passed{% endcomment %}
+    {% assign post_date = post.end_date | default: post.event_date | date: '%Y%m%d' %}
+    {% if post_date >= today %}
+      {% assign event_status = 'upcoming' %}
+    {% else %}
+      {% assign event_status = 'past' %}
+    {% endif %}
+
+    <li class="post-preview grid-item {{ event_status }}">
       <a class="post-preview-link" href="{{ site.baseurl }}{{ post.url }}">
         {% if post.main_image %}
           <img src="{{ site.baseurl }}{{ post.main_image }}" />
