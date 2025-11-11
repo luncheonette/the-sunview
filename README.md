@@ -98,16 +98,20 @@ To use the CMS:
 ## Local Setup
 
 1. `git clone git@github.com:luncheonette/the-sunview.git`
-2. Install ruby 2.7.2 (using [rbenv](https://github.com/rbenv/rbenv) or your version manager of choice)
-3. Download a recent version of [Node](https://nodejs.org/en/download/) & npm if you don't have it.
-4. `bundle install` to install all the gems
-5. `npm install` to install js dependencies
+2. Install ruby 3.2.2 (using your version manager of choice)
+3. `bundle install` to install dependencies
 
 ## Local Development
 
-1. `bundle install && npm install` to make sure you have the latest dependencies.
-2. `npm start` to run Jekyll *and* make webpack watch for changes to js files
-3. Point your browser to `localhost:3000`
+1. `bundle install` to make sure you have the latest dependencies.
+2. `bundle exec jekyll serve` to run Jekyll locally
+3. Point your browser to `localhost:4000`
+
+## Deployment
+
+- The app is deployed using `netlify`
+- Any changes to the `master` branch will trigger a new deploy
+- If the ruby or bundle versions change, you may need to update `netlify.toml` with the new versions
 
 ## Resources
 
