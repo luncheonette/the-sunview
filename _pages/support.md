@@ -14,7 +14,7 @@ print on the Risograph.
 
 <p>
   <a class="button-link" href="https://withfriends.events/o/sunview-at-the-acropolis/join/" target="_blank">
-    Become a member
+    Support
   </a>
 </p>
 
