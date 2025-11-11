@@ -1,18 +1,5 @@
 import moment from 'moment'
 
-export const styleEventsList = (idSelector) => {
-  if (document.getElementById(idSelector)) {
-    const eventsList = document.getElementById(idSelector).children
-
-    for(let i = 0; i < eventsList.length; i++) {
-      const eventEl = eventsList[i]
-      const { date, endDate } = eventEl.dataset
-      const eventClass = hasPassed(date, endDate) ? "past" : "upcoming"
-      eventEl.classList.add(eventClass)
-    }
-  }
-}
-
 export const hasPassed = (eventDate, endDate) => {
   if (!eventDate && !endDate) { return false }
 

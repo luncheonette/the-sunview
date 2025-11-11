@@ -17,7 +17,7 @@ title: Events
 
   <ul id="all-events" class="events-list">
   {% for event in events %}
-    <li class="event" data-date="{{ event.event_date }}">
+    <li class="event" data-date="{{ event.event_date | date_to_xmlschema }}"{% if event.end_date %} data-end-date="{{ event.end_date | date_to_xmlschema }}"{% endif %}>
       <a href="{{ site.baseurl }}{{ event.url }}">
         <div>
           <span class="title">{{ event.title }}</span>
@@ -33,4 +33,5 @@ title: Events
   {% endfor %}
   </ul>
 
+  <script type="text/javascript" src="{{ site.baseurl }}/assets/js/events.js"></script>
 </section>
