@@ -3,7 +3,7 @@
   publish = "_site"
 
 [build.environment]
-  # Use Ruby version from .ruby-version file
   RUBY_VERSION = "3.2.2"
-  # Skip Node.js entirely
+  JEKYLL_ENV = "production"
+  BUNDLER_VERSION = "2.7.2"
   NODE_VERSION = ""
