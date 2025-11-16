@@ -2,52 +2,89 @@
 title: Rentals
 ---
 
-The Sunview is available for occasional rental and use by neighbors, film/photo crews, and the general public.  We are also open to hosting meetings and retreats for small/local nonprofits, local organizing efforts, and social-justice-focused community groups, so feel free to reach out.
+The Sunview is available for occasional rental and use by neighbors, film/photo
+crews, and the general public.
 
-It is a 1960's diner / luncheonette in mostly original decor.
+Read our [Rental
+FAQs](https://docs.google.com/document/d/1eodkvx7dcALABeSyWnyCCdRSsAd74bWU/edit)
+for more information, or email locations@thesunview.org.
 
-Send us a note to locations@thesunview.org or call (612) 787-7434.
+Photos by [Nicholas Calcott](https://www.instagram.com/nicholascalcott)
 
-![Rental Image 1]({{ site.baseurl }}/assets/images/rentals/0023.jpg)
+![Rental Image](https://res.cloudinary.com/sunview/image/upload/2025-rental-images/2025-060_0002.jpg)
 
-![Rental Image 2]({{ site.baseurl }}/assets/images/rentals/0030.jpg)
+![Rental Image](https://res.cloudinary.com/sunview/image/upload/2025-rental-images/2025-060_0005_cqy07j.jpg)
 
-![Rental Image 3]({{ site.baseurl }}/assets/images/rentals/0038.jpg)
+![Rental Image](https://res.cloudinary.com/sunview/image/upload/2025-rental-images/2025-060_0006_emnimv.jpg)
 
-![Rental Image 4]({{ site.baseurl }}/assets/images/rentals/0044.jpg)
+![Rental Image](https://res.cloudinary.com/sunview/image/upload/2025-rental-images/2025-060_0007_frhup2.jpg)
 
-![Rental Image 5]({{ site.baseurl }}/assets/images/rentals/0054.jpg)
+![Rental Image](https://res.cloudinary.com/sunview/image/upload/2025-rental-images/2025-060_0008_darl9q.jpg)
 
-![Rental Image 6]({{ site.baseurl }}/assets/images/rentals/0057.jpg)
+![Rental Image](https://res.cloudinary.com/sunview/image/upload/2025-rental-images/2025-060_0010_g7lotf.jpg)
 
-![Rental Image 7]({{ site.baseurl }}/assets/images/rentals/0063.jpg)
+![Rental Image](https://res.cloudinary.com/sunview/image/upload/2025-rental-images/2025-060_0011_kxz3lo.jpg)
 
-![Rental Image 8]({{ site.baseurl }}/assets/images/rentals/0065.jpg)
+![Rental Image](https://res.cloudinary.com/sunview/image/upload/2025-rental-images/2025-060_0012_akqkkm.jpg)
 
-![Rental Image 9]({{ site.baseurl }}/assets/images/rentals/0071.jpg)
+![Rental Image](https://res.cloudinary.com/sunview/image/upload/2025-rental-images/2025-060_0017_nw8l4q.jpg)
 
-![Rental Image 10]({{ site.baseurl }}/assets/images/rentals/0078.jpg)
+![Rental Image](https://res.cloudinary.com/sunview/image/upload/2025-rental-images/2025-060_0019_hwwhzo.jpg)
 
-![Rental Image 11]({{ site.baseurl }}/assets/images/rentals/0082.jpg)
+![Rental Image](https://res.cloudinary.com/sunview/image/upload/2025-rental-images/2025-060_0020_vnwvvx.jpg)
 
-![Rental Image 12]({{ site.baseurl }}/assets/images/rentals/0089.jpg)
+![Rental Image](https://res.cloudinary.com/sunview/image/upload/2025-rental-images/2025-060_0022_kgz8nl.jpg)
 
-![Rental Image 13]({{ site.baseurl }}/assets/images/rentals/0092.jpg)
+![Rental Image](https://res.cloudinary.com/sunview/image/upload/2025-rental-images/2025-060_0023_bz27ie.jpg)
 
-![Rental Image 14]({{ site.baseurl }}/assets/images/rentals/0103.jpg)
+![Rental Image](https://res.cloudinary.com/sunview/image/upload/2025-rental-images/2025-060_0027_so9ycn.jpg)
 
-![Rental Image 15]({{ site.baseurl }}/assets/images/rentals/0117.jpg)
+![Rental Image](https://res.cloudinary.com/sunview/image/upload/2025-rental-images/2025-060_0029_xajeih.jpg)
 
-![Rental Image 16]({{ site.baseurl }}/assets/images/rentals/0131.jpg)
+![Rental Image](https://res.cloudinary.com/sunview/image/upload/2025-rental-images/2025-060_0032_sssl3l.jpg)
 
-![Rental Image 17]({{ site.baseurl }}/assets/images/rentals/0138.jpg)
+![Rental Image](https://res.cloudinary.com/sunview/image/upload/2025-rental-images/2025-060_0034_pqt0rt.jpg)
 
-![Rental Image 18]({{ site.baseurl }}/assets/images/rentals/0148.jpg)
+![Rental Image](https://res.cloudinary.com/sunview/image/upload/2025-rental-images/2025-060_0036_p9cdtv.jpg)
 
-![Rental Image 19]({{ site.baseurl }}/assets/images/rentals/0160.jpg)
+![Rental Image](https://res.cloudinary.com/sunview/image/upload/2025-rental-images/2025-060_0038_t4o7dh.jpg)
 
-![Rental Image 20]({{ site.baseurl }}/assets/images/rentals/0169.jpg)
+![Rental Image](https://res.cloudinary.com/sunview/image/upload/2025-rental-images/2025-060_0042_fcco5j.jpg)
 
-![Rental Image 21]({{ site.baseurl }}/assets/images/rentals/0176.jpg)
+![Rental Image](https://res.cloudinary.com/sunview/image/upload/2025-rental-images/2025-060_0045_efk6qm.jpg)
 
-(photos by [Nicholas Calcott](http://www.nicholascalcott.com/))
+![Rental Image](https://res.cloudinary.com/sunview/image/upload/2025-rental-images/2025-060_0046_ibasxv.jpg)
+
+![Rental Image](https://res.cloudinary.com/sunview/image/upload/2025-rental-images/2025-060_0048_iyd7dk.jpg)
+
+![Rental Image](https://res.cloudinary.com/sunview/image/upload/2025-rental-images/2025-060_0050_pkgr2o.jpg)
+
+![Rental Image](https://res.cloudinary.com/sunview/image/upload/2025-rental-images/2025-060_0051_xn62fi.jpg)
+
+![Rental Image](https://res.cloudinary.com/sunview/image/upload/2025-rental-images/2025-060_0059_hjnuoh.jpg)
+
+![Rental Image](https://res.cloudinary.com/sunview/image/upload/2025-rental-images/2025-060_0060_inegfl.jpg)
+
+![Rental Image](https://res.cloudinary.com/sunview/image/upload/2025-rental-images/2025-060_0061_tnz6t5.jpg)
+
+![Rental Image](https://res.cloudinary.com/sunview/image/upload/2025-rental-images/2025-060_0062_rlneld.jpg)
+
+![Rental Image](https://res.cloudinary.com/sunview/image/upload/2025-rental-images/2025-060_0065_sty0es.jpg)
+
+![Rental Image](https://res.cloudinary.com/sunview/image/upload/2025-rental-images/2025-060_0066_ocpbls.jpg)
+
+![Rental Image](https://res.cloudinary.com/sunview/image/upload/2025-rental-images/2025-060_0072_ekizct.jpg)
+
+![Rental Image](https://res.cloudinary.com/sunview/image/upload/2025-rental-images/2025-060_0074_fzskhg.jpg)
+
+![Rental Image](https://res.cloudinary.com/sunview/image/upload/2025-rental-images/2025-060_0076_x7ub5f.jpg)
+
+![Rental Image](https://res.cloudinary.com/sunview/image/upload/2025-rental-images/2025-060_0078_ybzf8g.jpg)
+
+![Rental Image](https://res.cloudinary.com/sunview/image/upload/2025-rental-images/2025-060_0079_aqphtz.jpg)
+
+![Rental Image](https://res.cloudinary.com/sunview/image/upload/2025-rental-images/2025-060_0081_culwzv.jpg)
+
+![Rental Image](https://res.cloudinary.com/sunview/image/upload/2025-rental-images/2025-060_0082_mppjir.jpg)
+
+![Rental Image](https://res.cloudinary.com/sunview/image/upload/2025-rental-images/2025-060_0085_x0nhlk.jpg)
