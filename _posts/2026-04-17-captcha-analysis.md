@@ -1,7 +1,7 @@
 ---
 title: Captcha Analysis
 event_date: 2026-04-17-20:00:00-04:00
-end_date: 2026-04-18-20:00:00-4:00
+end_date: 2026-04-18-20:00:00-04:00
 main_image: https://res.cloudinary.com/sunview/image/upload/v1775443499/posts/2026-04-17-captcha-analysis_h6tbyp.jpg
 ---
 
