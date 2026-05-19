@@ -210,28 +210,6 @@ main.page-content p {
   }
 }
 
-.homepage-announcement {
-  border: 2px solid var(--color-text);
-  padding: 15px;
-  margin-bottom: 60px;
-
-  h3 {
-    margin-top: 0;
-  }
-
-  p, a {
-    font-size: 18px;
-  }
-
-  @media (min-width: 992px) {
-    padding: 30px;
-
-    p, a {
-      font-size: 24px;
-    }
-  }
-}
-
 .donate-buttons {
   display: flex;
   gap: 15px;
