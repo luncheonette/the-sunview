@@ -52,6 +52,11 @@ layout: base
       <li class="post-preview grid-item">
         {% if pinned_at_position.collection == "images" %}
           <img src="{{ site.baseurl }}{{ pinned_at_position.image }}" alt="{{ pinned_at_position.caption }}" />
+        {% elsif pinned_at_position.collection == "links" %}
+          <a class="post-preview-link" href="{{ pinned_at_position.external_url }}">
+            <img src="{{ site.baseurl }}{{ pinned_at_position.image }}" />
+            <h3>{{ pinned_at_position.title }}</h3>
+          </a>
         {% else %}
           <a class="post-preview-link" href="{{ site.baseurl }}{{ pinned_at_position.url }}">
             {% if pinned_at_position.main_image %}

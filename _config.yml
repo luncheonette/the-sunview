@@ -30,6 +30,8 @@ collections:
     permalink: /:title/
   images:
     output: false
+  links:
+    output: false
 
 defaults:
 -
