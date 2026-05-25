@@ -40,6 +40,6 @@ emotional influence? *Let us find out together.* Artwork-horror, inverted
 Stendhal Syndrome, and transhistorical incorporation with Bill Bixby from *The
 Incredible Hulk*.
 
-Cleary a slate of films that are not to be missed. Come one, come all! Free
+Clearly a slate of films that are not to be missed. Come one, come all! Free
 pizza, free beer. Hangouts will commence at 7:00, the films at 8:00, and the
 probable resumption of hangouts afterward.
