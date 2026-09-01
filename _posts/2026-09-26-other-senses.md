@@ -10,6 +10,8 @@ Lauren Race<br>
 Alabaster Rhum<br>
 Samantha Sea Sea
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w2IinO8-NuA?si=5XAHQtyq2k41ToV5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Saturday September 26, 7-10pm
 
 Sunview Acropolis<br>
