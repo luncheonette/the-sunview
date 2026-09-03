@@ -79,7 +79,7 @@ layout: base
         {% endif %}
 
         <li class="post-preview grid-item {{ event_status }}">
-          <a class="post-preview-link" href="{{ site.baseurl }}{{ post.url }}">
+          <a class="post-preview-link{% if post.main_image %} with-image{% else %} no-image{% endif %}" href="{{ site.baseurl }}{{ post.url }}">
             {% if post.main_image %}
               <img src="{{ site.baseurl }}{{ post.main_image }}" />
             {% endif %}

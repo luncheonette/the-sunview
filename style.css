@@ -229,6 +229,10 @@ main.page-content p {
 
 .featured-posts {
   .post-preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     margin: 40px 0;
 
@@ -238,6 +242,16 @@ main.page-content p {
 
       &:hover {
         text-decoration: none;
+      }
+
+      &.no-image {
+        border: 2px solid var(--color-text);
+        height: 75%;
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 200px;
       }
     }
 
