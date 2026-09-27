@@ -288,6 +288,12 @@ main.page-content p {
 
     &.past {
       h3, p { display: none; }
+
+      .no-image {
+        h3 {
+          display: unset;
+        }
+      }
     }
   }
 }
